@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/home/[messages]/layout.js", "src/app/home/page.jsx", "src/components/HomePage/ObjectivesSection/Objectives.jsx", "src/components/HomePage/Team/TeamSection.jsx", "src/components/Footer/Footer.jsx", "src/app/digital-diplomats/page.jsx", "src/components/Navbar/navbar.jsx", "src/components/OurProjectPage/AI4Culture.jsx", "src/components/OurProjectPage/ClimateComponent.jsx", "src/components/OurProjectPage/DigitalDiplomats.tsx", "src/components/OurProjectPage/LearnFromProfessional.jsx", "src/components/OurProjectPage/PythonTraining.jsx", "src/components/OurProjectPage/WesternAzerbaijan.jsx", "src/components/HomePage/Swiper/Slider.jsx", "src/app/page.jsx", "src/app/blog/[slug]/page.jsx", "src/app/blog/page.jsx"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://worldazeyouth.az
+
+# Sitemaps
+Sitemap: https://worldazeyouth.az/sitemap.xml

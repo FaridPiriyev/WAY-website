@@ -1,0 +1,228 @@
+@import "tailwindcss";
+
+.animate-fix {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+.keen-slider__slide {
+  flex: 0 0 auto;
+  width: 10000px;
+}
+
+#Card1 {
+  width: 580px;
+  padding: 0;
+  margin: 0;
+}
+
+#Card2 {
+  width: auto;
+  height: auto;
+}
+
+#Card3 {
+  width: auto;
+  height: auto;
+}
+
+#Card4 {
+  width: auto;
+  height: auto;
+}
+
+#Card5 {
+  width: auto;
+  height: auto;
+}
+
+#Card6 {
+  width: 580px;
+}
+
+@media (max-width: 768px) {
+  .keen-slider {
+    padding-right: 50px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#containerForMap {
+  width: 100%;
+  margin-left: 60px;
+  max-width: 100%;
+}
+
+@media (min-width: 800px) {
+  #containerForMap {
+    max-width: 1024px;
+  }
+}
+#customPopup {
+  position: absolute;
+  left: 40px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+
+  padding: 1.5rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  max-width: 224px;
+  visibility: hidden;
+  z-index: 10;
+  border: 3px solid #134a8f;
+}
+
+@media (min-width: 768px) {
+  #customPopup {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 600px;
+    visibility: visible;
+
+    left: 200px;
+    width: 400px;
+  }
+}
+
+@media (min-width: 1300px) {
+  #customPopup {
+    max-width: 576px;
+    width: 1000px;
+    left: 300px;
+  }
+}
+
+.animated-underline {
+  position: relative;
+  display: inline-block;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.animated-underline::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+.animated-underline:hover::after {
+  width: 100%;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  33% {
+    transform: translateY(-20px) rotate(1deg);
+  }
+  66% {
+    transform: translateY(-10px) rotate(-1deg);
+  }
+}
+
+@keyframes float-delayed {
+  0%,
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  33% {
+    transform: translateY(-15px) rotate(-1deg);
+  }
+  66% {
+    transform: translateY(-25px) rotate(1deg);
+  }
+}
+
+@keyframes float-slow {
+  0%,
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-30px) rotate(2deg);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float-delayed 8s ease-in-out infinite;
+  animation-delay: 2s;
+}
+
+.animate-float-slow {
+  animation: float-slow 10s ease-in-out infinite;
+  animation-delay: 4s;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeInLeft {
+  animation: fadeInLeft 0.8s ease-out forwards;
+}
+
+.fadeInRight {
+  animation: fadeInRight 0.8s ease-out forwards;
+}
+
+.fadeInUp {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.fadeInDown {
+  animation: fadeInDown 0.8s ease-out forwards;
+}

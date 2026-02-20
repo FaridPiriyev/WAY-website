@@ -1,0 +1,335 @@
+{
+  "nav": {
+    "home": "Ana Səhifə",
+    "about": "Haqqımızda",
+    "activities": "Hədəflərimiz",
+    "projects": "Layihələrimiz",
+    "team": "Komandamız",
+    "contact": "Əlaqə",
+    "blog":"Bloqlar"
+  },
+ 
+  
+  "navdropdown": {
+    
+    "projects": {
+      "ai4culture": "AI4Culture",
+      "digitalDiplomats": "Digital Diplomatlar",
+      "pythonTraining": "Python Təlimi",
+      "westernAzerbaijan": "Qərbi Azərbaycan",
+      "greenGoal": "COP29",
+      "LearnFrom": "Peşəkarlardan Öyrən"
+    }
+  },
+
+
+
+  
+  "hero": {
+    "title1": "Dünya Azərbaycanlıları",
+    "title2": "Gənclər",
+    "title3": "Təşkilatı"
+  },
+  "stats": {
+    "projects": "Layihə",
+    "beneficiaries": "Faydalanan Gənc",
+    "team_members": "Komanda üzvü"
+  },
+  "about": {
+    "title": "Haqqımızda",
+    "p1": "Dünya Azərbaycanlıları Gənclər Təşkilatı xaricdə və ölkəmizdə azərbaycanlı gənclərin fəaliyyət və təşəbbüslərini dəstəkləyir.",
+    "p2": "O cümlədən gənclərimiz arasında şəbəkələşməni təmin edən dinamik gənclər təşkilatıdır.",
+    "p3": "Gənclər sahəsində baş tutan təşəbbüsləri layihə və tədbirlər vasitəsilə dəstəkləyərək fəaliyyət məqsədini genişləndirməkdir.",
+    "p4": "Bizim fəaliyyətimiz gənclərimiz arasında şəbəkələşmə və əməkdaşlıq imkanlarını inkişaf etdirməkdir."
+  },
+  "mission": {
+    "title": "Məqsədimiz",
+    "description": "Azərbaycanda və xarici ölkələrdə yaşayan azərbaycanlı gənclər arasında əlaqələrin inkişafına töhfə vermək."
+  },
+  "vision": {
+    "title": "Vizyonumuz",
+    "description": "Dünya azərbaycanlı gənclərinin birliyinə, innovasiya və mədəni dəyərlərimizin dünya səviyyəsində qlobal şəbəkələrin yaradılması platforması rolunu oynamaq."
+  },
+  "AboutUS": {
+    "title": "Hədəflərimiz",
+    "description": "Dünyanın müxtəlif ölkələrində yaşayan Azərbaycanlı gəncləri bir araya gətirərək, onların milli kimliklərini qorumaq və gələcək nəsillər üçün güclü bir birlik yaratmaq əsas məqsədimizdir."
+  },
+  "Goals": {
+    "p1": "Milli kimliyi qorumaq və təbliğ etmək.",
+    "p2": "Dünya azərbaycanlı gənclərinin həmrəyliyini təmin etmək.",
+    "p3": "Gənclərin təhsilini, inkişafını və mədəni fəaliyyətlərini təşviq etmək.",
+    "p4": "Gənclərin sosial, ictimai və mədəni tədbirlərdə iştirakını təmin etmək.",
+    "p5": "Milli mənəvi dəyərləri və Azərbaycan mədəniyyətini yaymaq.",
+    "p6": "Gənclərin müxtəlif sahələrdə fəal iştirakını dəstəkləmək və onlara imkanlar yaratmaq."
+  },
+
+  "Footer": {
+    "about": "Haqqımızda",
+    "our_goals": "Məqsədimiz",
+    "our_vision": "Vizyonumuz",
+    "our_team": "Komandamız",
+    "our_projects": "Layihələrimiz",
+    "objectives": "Hədəflərimiz",
+    "objective_1": "Gənclər arasında həmrəylik qurmaq",
+    "objective_2": "Milli kimliyi qorumaq və tanıtmaq",
+    "objective_3": "Fəal gəncləri dəstəkləmək",
+    "objective_4": "Təhsil və inkişaf imkanları yaratmaq",
+    "objective_5": "Mədəni və ictimai fəaliyyətləri təşviq etmək",
+    "objective_6": "Azərbaycan dəyərlərini dünyaya tanıtmaq",
+    "values": "Dəyərlərimiz",
+    "value_1": "Şəffaflıq və hesabatlılıq",
+    "value_2": "Könüllülük və ictimai məsuliyyət",
+    "value_3": "Qlobal düşüncə, lokal fəaliyyət",
+    "value_4": "Qarşılıqlı hörmət və müxtəliflik",
+    "value_5": "Davamlı inkişaf"
+  },
+  "maps": {
+    "workingHours": "B.e - C.a: 09:00 - 18:00 / Həftə sonları bağlıdır",
+    "whereToFindUs": "Bizi harada tapa bilərsiniz",
+    "description": "Cəmiyyətin tam ürəyində yerləşən mərkəzimiz əlaqə, yaradıcılıq və pozitivlik üçün buradadır.",
+    "addressLabel": "Ünvan",
+    "address": "Cəfər Cabbarlı küçəsi 609, Bakı, Yasamal AZ1065",
+    "emailLabel": "Email",
+    "email": "info@wayunion.org",
+    "phoneLabel": "Telefon nömrəsi",
+    "phone": "+994 (012) 597 56 19"
+  },
+ 
+ "Team": {
+  "teamTitle": "Team",
+
+  "raminHebibzade_title": "Sədr",
+
+  "ayxanHuseynov_title": "Baş Katib",
+
+  "mirhuseynTagiyev_title": "Sədr Müavini",
+
+  "sevincEhmedova_title": "Qrafik Dizayner",
+
+  "nurayResulzade_title": "Layihə Meneceri",
+
+  "remaleHesenova_title": "Sosial Media Meneceri",
+
+  "ayxanIsmayilov_title": "Beynəlxalq Əlaqələr Meneceri",
+
+  "ceyhunMahmudov_title": "Videoqraf",
+
+  "raufHuseynzade_title": "Proqram təminatı tərtibatçısı"
+},
+
+  "projects":{
+    "projects_title": "Layihələrimiz",
+    "swipe_right": "Sağa sürüşdürün",
+
+    
+    "digital_diplomats_project": "“Digital diplomatlar” layihəsi",
+    "digital_diplomats_description": "Azərbaycan Respublikasının Qeyri-Hökumət Təşkilatlarına Dövlət Dəstəyi Agentliyinin maliyyə dəstəyi ilə həyata keçirilən “Digital Diplomatlar” layihəsi uğurla tamamlandı.",
+    
+    "young_envoys_project": "“Qərbi azərbaycanlıların gənc səfirləri” layihəsi",
+    "young_envoys_description": "Layihənin yekun mərhələsində uğurlu iştirakçılar diplomlarla mükafatlandırılacaqlar.",
+    
+    "green_goal_project": "“Yaşıl Hədəf: Azərbaycan Gənclərinin COP29 Missiyası” layihəsi",
+    "green_goal_description": "Fondunun maliyyə dəstəyi ilə “Yaşıl Hədəf: Azərbaycan Gənclərinin COP29 Missiyası” layihəsinə start verdik!",
+    
+    "python_training": "Python Təlimləri",
+    "python_training_description": "Dünya Azərbaycanlıları Gənclər Təşkilatı ödənişsiz Python təlimlərini həyata keçirdi.",
+    
+    "ai4culture_project": "“AI4Culture: Mədəniyyətin Rəqəmsal Transformasiyası” layihəsi",
+    "ai4culture_description": "“AI4Culture: Mədəniyyətin Rəqəmsal Transformasiyası” layihəsi çərçivəsində iştirakçılar süni intellekt və rəqəmsal texnologiyaların mədəniyyət sahəsində tətbiqi ilə bağlı nəzəri və praktik biliklər əldə etdilər.",
+    
+    "z_gen_in_business_project": "“İş dünyasında Z nəsli: Peşəkardan öyrən” layihəsi",
+    "z_gen_in_business_description": "Z nəsli səhnədədir! Bu layihə sənə iş dünyasının içindən baxış qazandıracaq. Real peşəkarlarla tanış ol, bacarıqlarını inkişaf etdir, fərq yarat!"
+  },
+  "DigitalDiplomatsPage":{
+"project": "“Digital Diplomatlar” layihəsi",
+  "projects": "Ana Səhifə",
+  "digitalDiplomats": "Digital diplomatlar",
+  "description": "Azərbaycan Respublikasının Qeyri-Hökumət Təşkilatlarına Dövlət Dəstəyi Agentliyinin maliyyə dəstəyi ilə həyata keçirilən \"Digital Diplomatlar\" layihəsi uğurla tamamlandı. Layihə müddətində iştirakçılar, dezinformasiya ilə mübarizənin əhəmiyyətini daha dərindən anlamaq və müasir dövrdə informasiya təhlükəsizliyinin təminatı yollarını öyrənmək imkanı əldə etdilər. Gənclər, analitik düşünmə və tənqidi yanaşma bacarıqlarını inkişaf etdirmək üçün peşəkar ekspertlərlə görüşlərdə iştirak etdilər.",
+  "sessionsIntro": "Vurğulamaq istərdik ki, layihə çərçivəsində 6 görüş və 2 infotur təşkil olundu:",
+  "meetings": "Görüşlər",
+  "meetingList": [
+    "Azərbaycan Respublikasının ilk Baş naziri Həsən Həsənov ilə \"Media sahəsində diplomatik fəaliyyətin təşkili\" mövzusunda müzakirələr aparıldı.",
+    "Cənubi Qafqaz Tədqiqatlar Mərkəzinin direktor müavini Fuad Çıraqov sosial media alətlərindən istifadə etməklə gənclərin xarici siyasətdə rolu barədə dəyərli təcrübələrini bölüşdü.",
+    "Xarici İşlər Nazirliyinin sözçüsü Ayxan Hacızadə xarici siyasətin kommunikasiyası mövzusunda digital diplomatların biliklərini artırdı.",
+    "Real TV-nin Şöbə müdiri Vəfa Ağabalayeva 44 günlük Vətən müharibəsində Azərbaycana qarşı 'Fake news' barədə öz təcrübəsini paylaşdı.",
+    "QHT-lərə Dövlət Dəstəyi Agentliyinin Aygün Əliyeva COP28-də qeyri-hökumət təşkilatlarının iştirakçılığı barədə müzakirələr apardı.",
+    "Millət vəkili Naqif Həmzəyev rəqəmsal nüfuz və diplomatiya mövzusunda təqdimat keçirdi."
+  ],
+  "conclusion": "\"Digital Diplomatlar\" layihəsinin əsas hədəfi iştirakçıları dezinformasiya ilə mübarizədə daha hazırlıqlı mütəxəssislərə çevirmək idi.",
+  "infotours": "İnfoturlar",
+  "infotourDesc": "İştirakçılar, Report İnformasiya Agentliyi və Real TV-də media sahəsində iş prosesləri ilə tanış oldular."
+
+
+}, 
+
+  "climateProject": {
+    "title": "Hədəf: Azərbaycan Gənclərinin COP29 Missiyası",
+    "projects": "Ana Səhifə",
+    "cop29": "COP29",
+    "projectDescription": "Layihə, gənclərin iqlim dəyişiklikləri ilə mübarizədə fəal iştirakını təşviq edən, onların beynəlxalq ekoloji proseslərdə, xüsusilə də COP29 – BMT-nin İqlim Dəyişikliyi üzrə Tərəflər Konfransında təmsil olunmalarını dəstəkləyən mühüm bir təşəbbüsdür. Layihənin əsas məqsədi gəncləri iqlim siyasəti, ekoloji diplomatiya, bərpa olunan enerji, karbon izləri və dayanıqlı inkişaf məqsədləri ilə bağlı nəzəri və praktiki biliklərlə təchiz etməkdir. İştirakçılar layihə çərçivəsində müxtəlif ekoloji təlimlər, simulyativ COP29 modelləri, ictimai debatlar və ekspert görüşlərində iştirak edərək həm öz biliklərini dərinləşdirir, həm də beynəlxalq çıxış və mövqe bildirmə bacarıqlarını inkişaf etdirirlər. Onlar həmçinin, Azərbaycan reallığını və ekoloji çağırışlarını dünya ictimaiyyətinə çatdırmaq üçün kommunikasiya strategiyaları öyrənir, iqlim ədaləti və yerli təşəbbüslərin qlobal miqyasda əhəmiyyəti ilə tanış olurlar.",
+    "eventDetails": "30 yanvar 2025-ci il tarixində Azərbaycan-Fransız Universitetində (UFAZ) Dünya Azərbaycanlıları Gənclər Təşkilatının təşkilatçılığı və Azərbaycan Respublikasının Gənclər Fondunun dəstəyi ilə həyata keçirilən 'Yaşıl Hədəf: Azərbaycanın Gənclərinin COP29 Missiyası' layihəsi çərçivəsində 'Yaşıl Ölkəyə Xoş Gəlmisiniz' adlı video podkast çəkilmiş, 'Yaşıl Ölkəm' adlı foto-müsabiqə və 'İqlim dəyişikliyi ilə mübarizədə Azərbaycanın rolu' adlı konfrans uğurla baş tutdu. 'Yaşıl Ölkəyə Xoş Gəlmisiniz' adlı video podkastlar BMT-nin İqlim Dəyişmələri üzrə Çərçivə Konvensiyasının Tərəflər Konfransının 29-cu sessiyasında iştirak etmiş gənclərlə aparılmış çəkiliş, Azərbaycanın ekoloji və ətraf mühit siyasətindən, həmçinin uğurlarından bəhs edilmişdir. 'Yaşıl Ölkəm' adlı foto-müsabiqə isə gənclərin yaradıcılığını nümayiş etdirdiyi, qlobal ekoloji məqsədlərə dəstək olduğunu bir digər fəaliyyəti idi.",
+    "conferenceDetails": "Və son olaraq gənclərin ekoloji fəallığını artırmaq məqsədilə 'İqlim dəyişikliyi ilə mübarizədə Azərbaycanın rolu' adlı konfrans baş tutdu. Tədbirdə dövlət qurumlarının nümayəndələri, ekoloji ekspertlər, QHT rəhbərləri, media nümayəndələri və ekoloji sahəyə maraq göstərən gənclər iştirak etdilər. Konfransın əsas mesajı COP29 ətrafında Azərbaycanın ekoloji siyasətinə dair müzakirələr aparmaq, iqlim dəyişikliyi ilə mübarizədə gənclərin rolunu vurğulamaq və onların bu prosesə fəal şəkildə cəlb etmək idi.",
+    "openingSpeech": "Açılış nitqində Dünya Azərbaycanlıları Gənclər Təşkilatının Baş katibi Nazrin Süleymanova layihənin məqsədləri və indiyə qədər həyata keçirilmiş fəaliyyətlər barədə məlumat verdi. O, qeyd etdi ki, layihə çərçivəsində artıq 'Yaşıl Ölkəyə Xoş Gəlmisiniz' adlı video podkastlar çəkilib və 'Yaşıl Ölkəm' adlı foto-müsabiqə uğurla keçirilib. O, daha sonra, çəkilmiş podkastlardan qısa videoçarqların nümayişi edildiyini.",
+    "speakers": "Daha sonra Dünya Azərbaycanlıları Gənclər Təşkilatının sədr müavini Rəna Həbibbəylidə, Milli Məclisin deputatı Sebina Həsənova, Azərbaycan-Fransız Universitetinin Təhsil departamentinin müdür müavini Samra Şiriyeva, Azərbaycan Respublikasının Gənclər Fondunun şöbə müdiri Pərvanə Cəlləli çıxış edərək ekoloji problemlərlə halında gənclərin rolunun artırılmasının vacibliyini vurğuladılar. Çıxışlar Azərbaycanın ekoloji problemlərə qarşı apardığı mübarizənin əhəmiyyətindən və COP29-un ölkəmiz üçün yaratdığı imkanlardan danışıldı.",
+    "panelDiscussion": "Konfrans çərçivəsində 'İqlim dəyişikliyi ilə mübarizədə gənclərin maarifləndirilməsi: Post-COP29 dönəmində Azərbaycanın rolu' mövzusunda panel müzakirəsi keçirildi. Panel müzakirəsinin qonaqları Avropa Gənclər Parlamenti – Azərbaycanın B-inin sədri Gülnazə Dadaşova və'AEGE-Bakı'nın sədri Cesur Məmmədzadə oldu. Onlar ekoloji problemlərin həlli yollları, COP29-un Azərbaycandakı keçirilməsinin əhəmiyyəti və bu beynəlxalq tədbirin ölkəyə gətirəcəyi imkanlar barədə fikirlərini bölüşdülər. Panel müzakirəsi zamanı iştirakçılar iqlim ədaləti, yerli təşəbbüslərin qlobal məqsədlərlə əlaqələndirilməsi proqramlarının artırılması və gənclərin bu sahədə daha aktiv iştirak ilə bağlı təkliflərini səsləndirdilər və müzakirə etdilər.",
+    "photoCompetition": "Layihə çərçivəsində 'Yaşıl Ölkəm' adlı foto-müsabiqənin qalibləri də elan edildi və mükafatlandırıldı. Qalib gəlmiş fotolar sərgi formasında tədbir iştirakçılarına təqdim edildi. Bütün bu kimi tədbirlər iştirakçıların ekoloji sahədə maariflənməsinə, onların COP29 prosesinə aktiv qoşulmasına və ekoloji problemlərə bağlı həllərin tapılmasına dəstək olmaq məqsədi daşıyırdı."
+  },
+
+  "WestAzerbaijan": {
+  "projectTitle": "Qərbi Azərbaycanlıların gənc səfirləri",
+  "projectsTitle": "Ana Səhifə",
+  "intro1": "“Qərbi Azərbaycanlıların Gənc Səfirləri” layihəsi, Qərbi Azərbaycandan olan gənclərin milli yaddaş, tarix və mədəni kimlik mövzusunda bilik və şüur səviyyəsini artırmaq məqsədi ilə həyata keçirilir. Layihə çərçivəsində gənclər bölgənin tarixi irsi, deportasiya hadisələri, mədəniyyət abidələri və milli dəyərləri haqqında ətraflı məlumatlandırılır. Onlar eyni zamanda ictimai çıxış bacarıqları, diplomatik yanaşma, münaqişələrin sülh yolu ilə həlli və gənc səfirlik missiyası ilə bağlı müxtəlif təlimlərdə iştirak edirlər.",
+  "intro2": "Azərbaycan Respublikası Gənclər və İdman Nazirliyinin dəstəyi, Dünya Azərbaycanlıları Gənclər Təşkilatının təşkilatçılığı, Qərbi Azərbaycan İcması və Gənclərin İnkişaf və Karyera Mərkəzinin tərəfdaşlığı ilə həyata keçirilən “Qərbi Azərbaycanın Gənc Səfirləri” layihəsi ölkəmizi və Qərbi Azərbaycan həqiqətlərini beynəlxalq arenada layiqli təmsil və təbliğ edəcək gənc səfirlərin yetişdirilməsini hədəfləyir.",
+  "goal": "Layihənin məqsədi həm əslən Qərbi Azərbaycan, həm də digər rayonlarımızdan olan gənclərin beynəlxalq əməkdaşlığını dəstəkləmək, onları diplomatik protokol qaydaları, beynəlxalq münasibətlər və tarix haqqında dərin biliklərlə yetişdirməkdir. Layihə çərçivəsində 40 iştirakçı (25 əyani və 15 onlayn) müxtəlif diplomatlar və dövlət rəsmiləri ilə görüşlərdə iştirak etdi, Qərbi Azərbaycan tarixi və həqiqətlərini öyrəndi, natiqlik bacarıqlarını inkişaf etdirdi və praktik biliklər qazandılar.",
+  "selection": "Qeyd edək ki, Qərbi Azərbaycanın gənc səfirlərinin seçilmə prosesi 3 mərhələdən ibarət olub. İlkin mərhələdə layihəyə maraqlı gənclər onlayn qeydiyyatdan keçmiş, daha sonra həm əyani, həm də onlayn müsahibələrdə iştirak etmiş və seçilən gənclər test mərhələsində iştirak etmə hüququ qazanmışlar. Test mərhələsini də uğurla keçən namizədlər layihədə iştirak etmə hüququ əldə etmişlər. Əlavə olaraq nəzərinizə çatdırmaq istərdik ki, layihə üzrə ümumilikdə 121 nəfər qeydiyyatdan keçmişdi.",
+  "meetingsTitle": "Layihə çərçivəsində keçirilən görüşlər:",
+  "meeting1_prefix": "1-ci görüş:",
+  "meeting1_content": "Azərbaycan Respublikasının tanınmış ictimai-siyasi xadimi, Qərbi Azərbaycan İcmasının Müşahidə Şurasının sədri Misir Mərdanov tərəfindən “Tarixi yaddaş: Qayıdış hüququnun müdafiəsi üçün Gənc Səfirlərin üzərinə düşən missiyalar” mövzusunda keçirilib.",
+  
+  "meeting2_prefix": "2-ci görüş:",
+  "meeting2_content": "Azərbaycan Respublikası Milli Məclisinin Gənclər və İdman Komitəsinin sədri və Qərbi Azərbaycan İcmasının Nəzarət-Təftiş Komissiyasının sədrinin müavini Şahin İsmayılov tərəfindən “Gənclər Qərbi Azərbaycana qayıdışa necə töhfə verə bilər?” mövzusunda keçirilib.",
+  
+  "meeting3_prefix": "3-cü görüş:",
+  "meeting3_content": "Azərbaycan Respublikasının Milli Məclisinin deputatı və Qərbi Azərbaycan İcmasının İdarə Heyətinin sədr müavini Qaya Məmmədov tərəfindən “Qayıdışın Hüquqi Əsasları: Beynəlxalq Hüquq və Azərbaycan Perspektivləri” mövzusunda keçirilib.",
+  
+  "meeting4_prefix": "4-cü görüş:",
+  "meeting4_content": "Azərbaycan Respublikasının ilk Baş naziri, Fövqəladə və səlahiyyətli səfiri, Tarix elmləri doktoru, professor Həsən Həsənov tərəfindən \"Atropatena dövlətinin yaranması və tarixi sərhədləri\" mövzusunda keçirilib.",
+  
+  "meeting5_prefix": "5-ci görüş:",
+  "meeting5_content": "Azərbaycan Respublikasının Milli Məclisinin deputatı, siyasi elmlər doktoru Rizvan Nəbiyev tərəfindən “Qayıdış və Parlament diplomatiyası” mövzusunda keçirilib.",
+  
+  "meeting6_prefix": "6-cı görüş:",
+  "meeting6_content": "Azərbaycan Respublikası Milli Məclisinin deputatları Nigar Məmmədova, Səbinə Xasayeva və Naqif Həmzəyev tərəfindən “Beynəlxalq təmsilçilikdə Qayıdışın təbliği: vəzifələr və addımlar” mövzusunda panel müzakirə formatında baş tutdu.",
+  "closingTitle": "Bağlanış mərasimi:",
+  "closingContent": "Azərbaycan Respublikası Gənclər və İdman nazirinin müavini İndira Hacıyeva və Azərbaycan Respublikası Milli Məclisinin deputatı, Qərbi Azərbaycan İcmasının İdarə Heyətinin sədrinin müavini Qaya Məmmədov gənc səfirlərlə qayıdış konsepsiyası, bunun əhəmiyyəti və gənclərin üzərinə düşən öhdəlikləri ilə bağlı ətraflı müzakirələr apardılar. Gənclər layihənin davamiyyəti üçün öz təkliflərini və ideyalarını səsləndirdilər və növbəti görüləcək işlər barədə öz suallarına cavab tapdılar.",
+  "awards": "Layihəni uğurla bitirən iştirakçılar Dünya Azərbaycanlıları Gənclər Təşkilatı tərəfindən diplom və plaketlərlə təltif edildilər.",
+  "presentedBy": "Mükafatlar gənc səfirlərə İndira Hacıyeva, Qaya Məmmədov, Gənclərin İnkişaf və Karyera Mərkəzinin baş direktoru Azər Əliyev və Dünya Azərbaycanlıları Gənclər Təşkilatının sədri Ramin Həbibzadə tərəfindən təqdim edildi."
+},
+ "LearnFrom":{
+  "title": "\"İş dünyasında Z nəsli: Peşəkardan öyrən\" layihəsi",
+  "breadcrumb_projects": "Ana Səhifə",
+  "breadcrumb_page": "Peşəkardan öyrən",
+  "paragraph_1": "\"İş dünyasında Z nəsli: Peşəkardan öyrən\" layihəsinin məqsədi, gənclərin iş dünyasına daha yaxşı inteqrasiya olunmasına, onların əmək bazarının tələblərinə uyğun olaraq peşəkar inkişafına töhfə verməyə yönəlib.",
+  "paragraph_2": "Layihə iştirakçıları 3 ay müddətində müxtəlif sahələr üzrə uğurlu biznes rəhbərləri, bank sektorunun nümayəndələri və əmək bazarında söz sahibi olan peşəkarlarla bir araya gələrək müxtəlif sahələrdə dəyərli biliklər əldə edəcəklər.",
+  "paragraph_3": "Layihənin yekun mərhələsində uğurlu iştirakçılar sertifikatlarla mükafatlandırılacaqlar. Layihə müddətində xüsusi aktivlik göstərmiş 2 nəfər iştirakçıya Dünya Azərbaycanlıları Gənclər Təşkilatının Azərbaycan və ya İngilis dillərində rəsmi tövsiyə məktubu təqdim ediləcək."
+},
+"pythonTraining":{
+  "python_title": "Python təlimləri",
+  "breadcrumb_projects": "Ana Səhifə",
+  "breadcrumb_page_python": "Python təlimləri",
+  "paragraph_1": "Dünya Azərbaycanlıları Gənclər Təşkilatı ödənişsiz Python təlimlərini həyata keçirdi.",
+  "paragraph_2": "Layihənin ilkin mərhələsi olaraq test mərhələsi həyata keçirildi və uğurla tamamlandı. Seçilmiş iştirakçılar silsileli təlimlərdə müasir metodologiyaya əsaslanan tədris proqramı ilə təlim aldılar. Python üzrə baza və orta səviyyə biliklər qazandılar, kodu anlamaq və yazmaq bacarıqlarını inkişaf etdirdilər, komanda işində təcrübə və peşəkar əlaqələr əldə etdilər və nəzəri və praktiki dərslər, layihələr üzərində iş gördülər.",
+  "paragraph_3": "Layihə çərçivəsində nəzəri biliklərlə yanaşı, praktik tapşırıqlar və real layihələr üzərində iş aparıldı. Bu müddət ərzində iştirakçılar proqramlaşdırmanın əsaslarını mənimsədilər, praktiki tapşırıqlar yerinə yetirdilər və öz bacarıqlarını inkişaf etdirdilər. Layihənin sonunda uğurlu iştirakçılar sertifikatlarla mükafatlandırıldı."
+},
+"AI4culturePage":{
+  "projects": "Ana Səhifə",
+  "ai4culture": "AI4Culture",
+  "title": "\"AI4Culture: Mədəniyyətin Rəqəmsal Transformasiyası\" layihəsi",
+  "intro1": "\"AI4Culture: Mədəniyyətin Rəqəmsal Transformasiyası\" layihəsi çərçivəsində iştirakçılar süni intellekt və rəqəmsal texnologiyaların mədəniyyət sahəsində tətbiqi ilə bağlı nəzəri və praktik biliklər əldə etdilər.",
+  "intro2": "Layihə Azərbaycan Respublikasının Mədəniyyət Nazirliyinin dəstəyi, Dünya Azərbaycanlıları Gənclər Təşkilatının təşkilatçılığı və Süni İntellekt Azərbaycan platformasının tərəfdaşlığı ilə həyata keçirilib. Bu əməkdaşlıq nəticəsində gənclərin texnologiya və mədəniyyətin kəsişməsində inkişaf etməsi, yeni texnoloji imkanların yaradıcı sahələrə inteqrasiyası istiqamətində mühüm addımlar atılıb.",
+  "section1": "Layihə çərçivəsində iki əsas yenilik ictimaiyyətə təqdim olunub. Bunlardan biri, 5 tanınmış mədəniyyət xadiminin süni intellekt texnologiyası vasitəsilə \"canlandırılması\" olub. Bu videolar vasitəsilə görkəmli şəxslərin səsi, danışıq tərzi və vizual görünüşü realistik şəkildə yenidən yaradılaraq gənc nəsilə təqdim edilib. Bu yanaşma onların irsinin müasir formatda yaşadılması və texnologiyanın mədəni yaddaşa xidmət etməsi baxımından böyük maraq doğurub.",
+  "section2": "Digər mühüm yenilik isə layihə çərçivəsində yaradılan Virtual Muzey olub. Muzey, süni intellektin və 3D vizualizasiyanın imkanlarından istifadə edilərək formalaşdırılıb və Azərbaycanın mədəni irsini interaktiv formada təqdim edir. Virtual Muzey ziyarətçilərə istənilən məkandan daxil olmaqla eksponatlarla tanış olmaq, interaktiv məlumatlar əldə etmək və mədəniyyətimizi rəqəmsal müstəvidə kəşf etmək imkanı yaradır. Bu təşəbbüs, rəqəmsal transformasiyanın mədəniyyətin qorunması və yayılmasında oynadığı rolu əyani şəkildə nümayiş etdirir.",
+  "final1": "Layihənin ümumi məqsədi gənclərin süni intellekt texnologiyalarına dair bilik və bacarıqlarını artırmaq, həmçinin milli mədəniyyətin müasir texnologiyalar vasitəsilə tanıdılması və qorunmasına töhfə vermək olub. İştirakçılar müxtəlif seminarlar, praktiki təlimlər və interaktiv sessiyalar vasitəsilə rəqəmsal transformasiya prosesinə dair dərin biliklərlə təmin olunublar.",
+  "final2": "Bağlanış mərasimində layihəni uğurla başa vuran iştirakçılara sertifikatlar təqdim olundu. Sertifikatlar Dünya Azərbaycanlıları Gənclər Təşkilatının baş katibi Nazrin Süleymanova və Süni İntellekt Azərbaycan platformasının əməkdaşları tərəfindən təqdim edilib."
+},
+
+
+"error":{
+  "page_not_found": "Səhifə tapılmadı",
+  "not_found_message": "Axtardığınız səhifə mövcud deyil və ya köçürülüb. Zəhmət olmasa əsas səhifəyə qayıdın.",
+  "home": "Ana Səhifə",
+  "go_back": "Geri Qayıt",
+  "organization_name": "World Azerbaijanis Youth Organization",
+  "slogan": "Gənclərin səsi, gələcəyin qurucuları"
+},
+
+
+"Blogs":{
+ "title": "Blog",
+    "subtitle": "Azərbaycan tarixinin dərin səhifələri və gənc səfirlərimizin təcrübələrini kəşf edin",
+    "search_placeholder": "Blogları axtar...",
+    "read_more": "Oxu",
+    "no_posts_title": "Heç bir blog tapılmadı",
+    "no_posts_message": "Axtarış meyarlarınızı dəyişdirməyi yoxlayın",
+    "minutes": " dəq",
+    "categories": {
+      "history": "Tarix",
+      "research": "Tədqiqat",
+      "young_ambassadors": "Gənc Səfirlər",
+      "politics": "Siyasət",
+      "statehood": "Dövlətçilik"
+    },
+  "blog1_title": "Atropatena Dövlətinin Tarixi Həqiqətləri",
+  "blog1_category": "Tarix",
+  "blog1_excerpt": "Azərbaycan Respublikasının ilk Baş naziri Həsən Həsənovla Qərbi Azərbaycanın Gənc Səfirlərinin görüşündə Atropatena dövlətinin yaranma tarixi ilə bağlı yeni faktlar...",
+  "blog1_introduction": "Yanvarın 27-də 'Qərbi Azərbaycanın Gənc Səfirlərinin' növbəti görüşü Azərbaycan Respublikasının ilk Baş naziri, Fövqəladə və Səlahiyyətli Səfiri, Tarix elmləri doktoru, professor Həsən Həsənovla baş tutdu. Qərbi Azərbaycanın Gənc Səfiri olaraq bu görüş mənim üçün olduqca maraqlı və faydalı keçdi. Tariximizin bir çox vacib məqamlarına toxunuldu, bəzi məsələlər isə məndə ciddi suallar doğurdu. Xüsusilə Atropatena dövlətinin yaranma tarixi ilə bağlı təqdim olunan faktlar indiyə qədər bildiklərimizdən tamamilə fərqli idi.",
+  "blog1_historical": "Bizə həmişə bu dövlətin eramızdan əvvəl 321-ci ildə, Makedoniyalı İsgəndərin imperiyası dağıldıqdan sonra yarandığı öyrədilib. Lakin görüş zamanı məlum oldu ki, əslində Atropatena bundan xeyli əvvəl – eramızdan əvvəl 612-ci ildə yaranıb. Bu fakt qəbul olunsa, Azərbaycan dövlətçiliyinin tarixi daha qədim bir dövrə gedib çıxır və regiondakı qədim türk dövlətləri ilə varislik məsələsini yenidən gündəmə gətirir. Həsən müəllim bu fikri müxtəlif tarixi mənbələrlə əsaslandırdı. Təqdim olunan xəritələrdə Azərbaycanın dövlətçilik ənənələrinin üç əsas mərhələdə inkişaf etdiyi göstərilirdi. Birinci mərhələdə (e.ə. III minillikdən başlayaraq), Cənubi Qafqaz və indiki Azərbaycan ərazisində Turukkum, Lullubum, Guttum (qutilər) kimi tayfa birlikləri mövcud olub. Bu tayfalar Assur mənbələrində də qeyd edilir və onların dövlətçilik ənənələrinə malik olduqları göstərilir. İkinci mərhələdə (e.ə. IX–VII əsrlər), Manna, Midiya və Aşguz dövlətləri meydana çıxır. Əsas diqqətçəkən məqam isə Aşguz çarlığının olmasıdır. E.ə. 673-cü ildə Aşguz və Midiya dövlətləri yaranır və bu proses Atropatenanın əsasının qoyulmasına səbəb olur. Bu dövrdə Assuriya ilə davamlı qarşıdurmalar yaşanırdı. Nəhayət, e.ə. 612-ci ildə Assuriya imperiyasının paytaxtı Nineviyanın süqutu ilə Atropatena dövləti yaranır. Ktesiy və Diodor kimi antik müəlliflər yazır ki, Babil valisi Belesus və Midiya hökmdarı Ərbay (Arpat) Assuriyaya qarşı birləşir. Bu koalisiyaya Aşguz çarlığı da qoşulur və nəticədə yeni bir dövlət – Adorbayqan (Atropatena) qurulur.",
+  "blog1_modern": " 'Ən maraqlı məqamlardan biri odur ki, Atropatena yaranandan sonra uzun müddət fərqli adlarla tanınıb. Roma tarixçisi Ammian Marselin yazır ki, Assuriyanın dağılmasından sonra Midiyanın sərhədlərində Atropatena adlı bir dövlət yaranır. Suriya mənbəyi 'Karxi de bet Selox' isə bildirir ki, bu dövləti Aşguz çarlığının hökmdarı Ərbay qurmuşdur. Bəs bu faktlar niyə dərsliklərdə yoxdur? Səbəb sovet tarixşünaslığında formalaşmış stereotiplərlə bağlıdır. İqrar Əliyev Strabonun yazılarına əsaslanaraq Atropatenanın e.ə. 321-ci ildə yarandığını iddia edib. Halbuki Strabon sadəcə 'Atropatena İsgəndərin ölümündən sonra müstəqilliyini bərpa etdi' deyir. Bu isə göstərir ki, Atropatena artıq mövcud idi, sadəcə İsgəndər dövründə vassal asılılığında olmuşdu.'",
+  "blog1_conclusion": "Bu faktların qəbul edilməsi bir sıra tarixi suallara cavab verir: 1. Atropatenanın fars mənşəli yox, e.ə. 612-ci ildə yaranmış bir türk dövləti olduğunu sübut edir. 2. Onun sak-skif (Aşguz) mənşəli olduğunu və Oğuz türkləri ilə bağlılığını ortaya qoyur. 3. Erməni tarixşünaslığının Atropatena üzərindəki iddialarını əsassız edir, çünki ermənilərə dair ilk məlumat e.ə. 521-ci ilə aiddir, halbuki Atropatena artıq e.ə. 612-ci ildən mövcud idi. Bu mövzu geniş şəkildə müzakirə olunmalı və tariximiz daha dərindən araşdırılmalıdır. Keçmişimizi nə qədər yaxşı tanısaq, gələcəyimizi bir o qədər möhkəm qura bilərik. Azərbaycanın dövlətçilik tarixi düşündüyümüzdən də qədimdir və bu, milli kimliyimiz üçün həyati əhəmiyyət daşıyır.",
+  
+  "blog2_title": "Tarixi Tədqiqatlar və Gələcək Perspektivləri",
+  "blog2_category": "Tədqiqat",
+  "blog2_excerpt": "Qərbi Azərbaycanın Gənc Səfirləri proqramı çərçivəsində Azərbaycanın dövlətçilik tarixinin mühüm səhifələrindən biri olan Atropatenanın əsl tarixi haqqında...",
+  "blog2_introduction":"\"Qərbi Azərbaycanın Gənc Səfirləri\" proqramı çərçivəsində Azərbaycanın dövlətçilik tarixinin mühüm səhifələrindən biri olan Atropatenanın əsl tarixi haqqında dəyərli bir görüşdə iştirak etdik. Azərbaycan Respublikasının ilk Baş naziri, tarix elmləri doktoru Həsən Həsənovun təqdim etdiyi faktlar bizlərə Atropatenanın yaranma tarixi ilə bağlı yeni bir baxış bucağı qazandırdı.",
+  "blog2_historical": "Tarix elmlərində uzun illərdir ki, Atropatenanın yaranma tarixi ilə bağlı mübahisələr davam edir. Ənənəvi yanaşmaya görə, bu dövlət Makedoniyalı İskəndərin ölümündən sonra yaranmışdır. Lakin aparılan akademik araşdırmalar və qədim yazılı mənbələr göstərir ki, Atropatena əslində eramızdan əvvəl 612-ci ildə formalaşıb. Bu mühüm tarixi dönüş Assuriya imperiyasının süqutu ilə bağlıdır. Yeni-Babil mixi yazıları və Roma tarixçisi Ammian Marselinin qeydləri Atropatenanın Midiya və Skiflərin birgə səyləri ilə qurulduğunu təsdiqləyir. Qədim mənbələr göstərir ki, bu dövlətin yaradıcısı Skif mənşəli Ərbay (Arbat) adlı çar olmuşdur. Həmin dövrdə dövlətin ilkin adı \"Adorbayqan\" idi, sonradan isə \"Atropatena\" formasında tarixə düşmüşdür.",
+  "blog2_modern":  "Strabonun yazılarında Atropatenanın e.ə. 321-ci ildə İskəndərin imperiyası dağıldıqdan sonra yarandığı deyilsə də, bu fikirlər bəzən yanlış başa düşülür. Əslində, Strabon bu dövlətin həmin dövrdə müstəqilliyini bərpa etdiyini bildirir. Polibi və digər qədim müəlliflər Atropatenanın İskəndərdən çox əvvəl mövcud olduğunu qeyd edirlər. Tarixi xəritələr və yazılı mənbələr bu dövlətin ərazisinin Dərbənddən İsfahana qədər uzandığını göstərir. Bu dövlətin qurucuları Skif-Sak (Aşguz) mənşəli xalq olub. Herodotun qeydlərində \"Skif\" və \"Sak\" eyni xalq kimi tanınır, yunan mənbələrində isə bu xalq \"Quz\" kimi təqdim edilir. Bu fakt Atropatenanın qədim Oğuz tayfaları ilə bağlılığını sübut edir və Azərbaycan xalqının genetik-mədəni köklərinin daha qədim dövrlərə gedib çıxdığını göstərir.",
+  "blog2_conclusion": "Atropatenanın e.ə. 612-ci ildə yaranmasının qəbul olunması Azərbaycanın siyasi və tarixi kimliyini yenidən dəyərləndirməyə imkan yaradır. Bu, fars və erməni mənbələrinin tarixi təhrif etmə cəhdlərinin qarşısını almaqla yanaşı, Azərbaycan xalqının qədim dövlətçilik ənənələrinin mövcudluğunu sübut edir. Bu elmi əsaslandırmalar, Azərbaycanın tarixi reallıqlarının beynəlxalq səviyyədə düzgün təqdim olunması baxımından olduqca əhəmiyyətlidir. Bu görüş biz gənclərə tariximizi daha dərindən öyrənmək və gələcək nəsillərə çatdırmaq üçün stimul verdi. Atropatenanın gerçək tarixinin ortaya çıxarılması və saxta narrativlərlə mübarizə aparmaq bizim üzərimizə düşən vacib bir vəzifədir. Bu sahədə daha geniş araşdırmalar aparmalı və onların beynəlxalq miqyasda tanınmasına çalışmalıyıq.",
+  
+  "blog3_title": "Gənc Səfirlərin Tarixi Missiyası",
+  "blog3_category": "Gənc Səfirlər",
+  "blog3_excerpt": "Həsən Həsənovla görüşmə şansını Qərbi Azərbaycan İcmasının Gənc Səfirləri layihəsində əldə etdim. Seçilən mövzu aydın idi - Atropatena dövlətinin yaranması...",
+  "blog3_introduction": "Həsən Həsənovla görüşmə şansını \"Qərbi Azərbaycan İcmasının Gənc Səfirləri\" layihəsində əldə etdim. Seçilən mövzu aydın idi - \"Atropatena dövlətinin yaranması və tarixi sərhədləri”. Düzünü demək lazım gələrsə ilk başda belə bir mövzunun seçilməsi mənim üçün bir qədər gözlənilməz idi. Tək bir sual canlandı beynimdə - Niyə məhz Atropatena? Amma görüşdən sonra hər şey mənə aydın oldu. Həsən Həsənovun da dediyi kimi biz Qərbi Azərbaycan və onun tarixini yayan gənc səfirləriksə bu torpaqların da tarixini dərindən bilməliyik. Bütün bildiklərimizi, inandığımız və reallığından əmin olduğumuz gerçəkləri dəlillərlə sübut etməyi bacarmalıydıq. Çünki tarix sadəcə keçmiş zamanlarda baş vermiş hadisələrin xroniki yazılışı deyil, gələcəyə açılan pəncərədir.",
+  "blog3_historical": "Sərhədləri qərbdə Qızıl İrmaq çayından, şərqdə Xəzər dənizinə, şimalda Qafqaz silsilələrindən, cənubda isə Urmiya gölünə qədər uzanan və əslində Assuriya dövlətinin parçalanmasından sonra yaranan Atropatena dövlətinin e.ə. 612-ci illərə uzanan qədim tarixiylə bağlı bizə dəyərli məlumatlar verildi. Görüş boyunca bu tarixi faktların müdafiəsinin necə çətin olduğunu, onların dəlillərlə sübutlandırılmasının əhəmiyyətini də vurğuladı. Çünki tarix gizli bir sirdir və elə Həsən Həsənovun əsaslandıraraq yazdığı məlumatlarda yeni suallara səbəb olur, bir o qədər də maraq doğurur. Heredotun, Assuriyanın midiyalılar tərəfindən məhv edilməsi fikrinə təkzib yaradan və o dövrdə hegemon xalq olan skiflərin – Umman-Manda xalqının Assuriyanı dağıtması fikri, artıq biz gənc səfirlər üçün olmasa da, dünya üçün yeni bir alternativdir.",
+  "blog3_modern": "Həsən Həsənov bu məlumatların bütün dünyaya ötürülməsi kimi ağır bir işin biz və bizim kimi gənc səfirlərin boynuna düşdüyünü də dedi. Həsən Həsənovda fərqinə vardığım bir başqa xüsusiyyət də o idi ki, bizi bizim tariximizlə vurub onu saxtalaşdırmaq istəyənlərə yenə bizim tariximizlə cavab verirdi. Bizim tariximiz bizi susduran deyil, bizi danışdıran güc olmalıdır. Bəlkə də görüş sırasında verilən cavabların bir az çəkinərək deyildiyini hiss etdiyində \"bərkdən de\" deməsi buna işarə edirdi. Tariximiz yalnızca bizimdir və doğrusunu da yalnızca biz bilə bilərik. Bəs onu səsli deməkdən niyə çəkinməliyik? Həsən Həsənov əsassız iddialardan çəkinmirdi, çünki onların doğrularını bilirdi və bizi də bu doğruları bilməyə, öyrənməyə çağırırdı. Görüş əsnasında uzun müddət müzakirələrə səbəb olmuş \"biz türkük yoxsa azərbaycanlıyıq?\" sualı da verilmişdi. Görkəmli tarixçi “biz türkəsilli azərbaycanlıyıq\" deyərək bizə əsl kimliyimizi bir daha xatırlatdı.",
+  "blog3_conclusion":  "Görüş zamanı danışılacaq çox mövzu var idi, amma zaman qısa idi. Düşünürəm ki, dəyərli tarixçimiz Həsən Həsənovla olan bu görüş iki hissəli olmalıydı. Çünki hələ qarşıda müzakirə olunacaq və öyrəniləcək çox şey var idi. Bu görüş mənim üçün yalnız bir tarixi mühazirə deyil, həm də milli kimliyə, tarixi yaddaşa və özümüzə inama çağırış oldu. Həsən Həsənovun verdiyi hər fikir, ortaya qoyduğu hər dəlil biz gənclər üçün bir öhdəlik, bir məsuliyyətdir. Bu gün tariximizi susaraq deyil, inamla və dəlillərlə danışmağın vaxtıdır.",
+  
+  "blog4_title": "Beynəlxalq Münasibətlər Kontekstində Tarix",
+  "blog4_category": "Siyasət",
+  "blog4_excerpt": "Gənc Səfirlər olaraq iştirak etdiyimiz hər görüş bizim üçün yeni biliklər və perspektivlər qazandırır. Həsən müəllimlə görüşümüz də istisna olmadı...",
+  "blog4_introduction":"Gənc Səfirlər olaraq iştirak etdiyimiz hər görüş bizim üçün yeni biliklər və perspektivlər qazandırır. Həsən müəllimlə görüşümüz də istisna olmadı. Xüsusilə Atropatena ilə Qərbi Azərbaycan arasındakı tarixi əlaqələr barədə səsləndirilən faktlar diqqətimizi çəkdi. Görüş zamanı tarixi proseslərin bugünkü reallıqlarla necə səsləşdiyini və bu mövzunun beynəlxalq münasibətlər kontekstində necə analiz edildiyini gördük.",
+  "blog4_historical": "Atropatena dövləti, tarixi Azərbaycan ərazisində mövcud olmuş və bölgənin qədim dövlətçilik ənənələrinin əsasını qoymuşdur. Həsən müəllimin vurğuladığı kimi, bu dövlətin tarixi mirası Qərbi Azərbaycan əraziləri ilə də sıx bağlıdır. Qədim dövrlərdən etibarən bu torpaqlarda formalaşmış mədəni irs və etnik struktur, Azərbaycan xalqının həmin ərazilərlə bağlılığını açıq şəkildə göstərir.",
+  "blog4_modern": "Məsələyə təkcə tarixi yox, həm də beynəlxalq münasibətlər prizmasından yanaşmağımız bizə analitik düşünməyi öyrətdi. Tarixi faktların müasir siyasi proseslərlə necə uzlaşdığını anlamaq, gələcək strategiyaları düzgün qurmaq baxımından vacibdir. Görüş həm informasiya mübadiləsi, həm də qarşılıqlı müzakirələrlə zəngin idi.",
+  "blog4_conclusion": "Belə tədbirlər bizə təkcə bilik qazandırmır, həm də tarixi hadisələri daha geniş kontekstdə analiz etməyə imkan yaradır. Ümid edirik ki, bu tip görüşlər davamlı olacaq və bizə yeni perspektivlər qazandıracaq. Həsən müəllimə və təşkilatçılara təşəkkür edirik!",
+  
+  "blog5_title": "Azərbaycan Dövlətçiliyinin Fundamental Strukturu",
+  "blog5_category": "Dövlətçilik",
+  "blog5_excerpt": "Müasir Azərbaycan dövlətçiliyinin ən prinsipial məsələlərindən biri ölkəmizin tarixi profili ilə bağlıdır. Həsən Həsənovun dərin biliyi və qətiyyəti...",
+  "blog5_introduction": "Müasir Azərbaycan dövlətçiliyinin ən prinsipial məsələlərindən biri ölkəmizin tarixi profili ilə bağlıdır. Həsən Həsənonun dərin biliyi və qətiyyəti şübhəsiz ki, Azərbaycanın dünya tarixindəki rolunu və unikal mövqeyini sübut edir. Sovetlər dövründə repressiv şəraitə baxmayaraq, o, sistemə qarşı çıxaraq Azərbaycan tarixinin fundamental strukturunu araşdırmış və bu irsi qoruyub gələcək nəsillərə ötürməyə çalışmışdır.",
+  "blog5_historical": "Bu təqdimat təkcə Azərbaycanın tarixi torpaqlarını deyil, həm də qonşu dövlətlərin kimliyini müzakirə edərək regionun tarixi gerçəkliklərini ortaya qoyurdu. Təəssüflər olsun ki, tarixi faktlar bəzən Ermənistan və İran kimi qonşularımız tərəfindən populyar mediada təhrif olunur və manipulyasiya edilir. Lakin 'Gənc Qərbi Azərbaycan Səfirləri' layihəsi çərçivəsində keçirilən bu görüş, gənc araşdırmaçılar üçün bir növ mayak rolunu oynadı. Tarixi istinadlar və illərin elmi araşdırmaları bizə daha aydın gələcəyə istiqamətlənmək üçün yol göstərir.",
+  "blog5_modern": "Yeni dövrdə BMT Təhlükəsizlik Şurasında ənənəvi türkofobiyadan əziyyət çəkən Fransaya ölkəmizin ərazi bütövlüyünün sarsılmazlığını tanıtmaq təkcə akademik bilik deyil, həm də ciddi diplomatik cəsarət tələb edir. Mənim fikrimcə, gələcəyə qoyulan ən dəyərli sərmayə tarixi düzgün anlamaq və ondan nəticə çıxarmaqdır. Atropatena, Manna, Qafqaz Albaniyası və bu kimi qədim dövlətlər Azərbaycanlı kimliyimizin formalaşmasında mühüm rol oynayıb. Bu görüşün mənim üçün ən önəmli tərəfi isə Həsən Həsənonun öz mövqeyini gənclərlə həm akademik, həm də ictimai xadim kimi bölüşməsi oldu.",
+  "blog5_conclusion": "Hər iki sahədə uğur qazanmaq hər kəsə nəsib olmayan nadir bir bacarıqdır və düşünürəm ki, bu seminar zamanı qazandığım biliklərin davamlı istifadəsi mənim şəxsi inkişafım üçün də mühüm rol oynayacaq. Bu cür tədbirlərin təşkili gənc nəslin milli tariximizi daha dərindən öyrənməsinə və möhkəm, elmi əsaslı mövqe formalaşdırmasına böyük töhfə verir. Həsən Həsənonun tədqiqatları bir daha sübut edir ki, Azərbaycan tarixi yalnız coğrafi sərhədlər çərçivəsində deyil, həm də mədəni və siyasi baxımdan qlobal əhəmiyyətə malikdir. Tarixi faktların beynəlxalq arenada düzgün təqdim edilməsi və qorunması ölkəmizin maraqlarının müdafiəsində vacib rol oynayır. Bu görüş həm də göstərdi ki, Azərbaycan həqiqətlərini dünyaya çatdırmaq üçün akademik yanaşma ilə yanaşı, ictimai diplomatiya da son dərəcə önəmlidir."
+},
+ "common": {
+    "all": "Hamısı"
+  },
+  
+  "BlogDetail": {
+    "introduction": "Giriş",
+    "mainContent": "Ana Məzmun",
+    "historicalContext": "Tarixsel Kontekst",
+    "modernPerspective": "Müasir Baxış",
+    "conclusion": "Nəticə",
+    "quote": "Bu sahədə əldə edilən təcrübə və nailiyyətlər gələcək nəsillər üçün dəyərli mirasdır və onların əsasında qurulacaq strategiyalar daha da mükəmməl olacaqdır."
+  }, 
+  
+  "TableOfContents": {
+    "headingTitle": "İçindəkilər",
+    "items": {
+      "introduction": "Giriş",
+      "mainContent": "Ana Məzmun",
+      "historicalContext": "Tarixsel Kontekst",
+      "modernPerspective": "Müasir Baxış",
+      "conclusion": "Nəticə"
+    }
+  },
+
+  "blogNotFound": {
+    "notFound_title": "Blog tapılmadı",
+    "notFound_message": "Axtardığınız məqalə mövcud deyil və ya silinib.",
+    "notFound_button": "Bloglara Qayıt"
+  }
+
+
+
+ 
+}
