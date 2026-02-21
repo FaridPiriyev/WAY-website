@@ -13,10 +13,10 @@ export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
-  
+
   const projectsRef = useRef(null);
   const langRef = useRef(null);
-  
+
   const router = useRouter();
   const t = useTranslations("nav");
   const tDropDown = useTranslations("navdropdown");
@@ -59,13 +59,13 @@ export default function Navbar() {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      
+
       if (isMobileMenuOpen && Math.abs(currentScrollY - lastScrollY) > 10) {
         setIsMobileMenuOpen(false);
       }
-      
+
       setIsScrolled(currentScrollY > 50);
-      
+
       if (currentScrollY < 10) {
         setIsVisible(true);
       } else {
@@ -75,7 +75,7 @@ export default function Navbar() {
           setIsVisible(true);
         }
       }
-      
+
       setLastScrollY(currentScrollY);
     };
 
@@ -121,23 +121,27 @@ export default function Navbar() {
   };
 
   const projectsList = [
-    { name: tDropDown('projects.ai4culture'), href: '/ai4culture' },
-    { name: tDropDown('projects.digitalDiplomats'), href: '/digital-diplomats' },
-    { name: tDropDown('projects.pythonTraining'), href: '/python-training' },
-    { name: tDropDown('projects.westernAzerbaijan'), href: '/western-aze' },
-    { name: tDropDown('projects.greenGoal'), href: '/cop29' },
-    { name: tDropDown('projects.LearnFrom'), href: '/learn-from-a-professional' }
+    { name: tDropDown("projects.ai4culture"), href: "/ai4culture" },
+    {
+      name: tDropDown("projects.digitalDiplomats"),
+      href: "/digital-diplomats",
+    },
+    { name: tDropDown("projects.pythonTraining"), href: "/python-training" },
+    { name: tDropDown("projects.westernAzerbaijan"), href: "/western-aze" },
+    { name: tDropDown("projects.greenGoal"), href: "/cop29" },
+    {
+      name: tDropDown("projects.LearnFrom"),
+      href: "/learn-from-a-professional",
+    },
   ];
 
   return (
-    <header 
+    <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-out ${
-        isScrolled 
-          ? "bg-white shadow-lg" 
-          : "bg-transparent"
+        isScrolled ? "bg-white shadow-lg" : "bg-transparent"
       } ${
-        isVisible 
-          ? "transform translate-y-0 opacity-100" 
+        isVisible
+          ? "transform translate-y-0 opacity-100"
           : "transform -translate-y-full opacity-0"
       }`}
     >
@@ -152,11 +156,11 @@ export default function Navbar() {
             className="transition-all duration-300 transform hover:scale-110 drop-shadow-lg hover:drop-shadow-xl"
           />
         </div>
-       
+
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex lg:space-x-4">
-          <a 
-            href="#" 
+          <a
+            href="#"
             className={`relative group transition-all duration-300 font-medium transform hover:scale-105 ${
               isScrolled ? "text-gray-800" : "text-white"
             }`}
@@ -166,8 +170,8 @@ export default function Navbar() {
             <span className="absolute inset-0 bg-white/10 rounded-lg scale-0 group-hover:scale-100 transition-transform duration-300 -z-10"></span>
           </a>
 
-          <a 
-            href="#about" 
+          <a
+            href="#about"
             className={`relative group transition-all duration-300 font-medium transform hover:scale-105 ${
               isScrolled ? "text-gray-800" : "text-white"
             }`}
@@ -177,8 +181,8 @@ export default function Navbar() {
             <span className="absolute inset-0 bg-white/10 rounded-lg scale-0 group-hover:scale-100 transition-transform duration-300 -z-10"></span>
           </a>
 
-          <a 
-            href="#objectives" 
+          <a
+            href="#objectives"
             className={`relative group transition-all duration-300 font-medium transform hover:scale-105 ${
               isScrolled ? "text-gray-800" : "text-white"
             }`}
@@ -189,7 +193,7 @@ export default function Navbar() {
           </a>
 
           {/* Projects dropdown - hover və click ilə */}
-          <div 
+          <div
             ref={projectsRef}
             className="relative"
             onMouseEnter={() => setIsProjectsDropdownOpen(true)}
@@ -202,26 +206,32 @@ export default function Navbar() {
               }`}
             >
               <span className="relative z-10">{t("projects")}</span>
-              <ChevronDown 
-                size={16} 
+              <ChevronDown
+                size={16}
                 className={`transition-transform duration-300 ${
-                  isProjectsDropdownOpen ? 'rotate-180' : ''
-                }`} 
+                  isProjectsDropdownOpen ? "rotate-180" : ""
+                }`}
               />
-              <span className={`absolute bottom-0 left-0 h-0.5 bg-[#1A5BA8] transition-all duration-300 rounded-full ${
-                isProjectsDropdownOpen ? 'w-full' : 'w-0'
-              }`}></span>
-              <span className={`absolute inset-0 bg-white/10 rounded-lg transition-transform duration-300 -z-10 ${
-                isProjectsDropdownOpen ? 'scale-100' : 'scale-0'
-              }`}></span>
+              <span
+                className={`absolute bottom-0 left-0 h-0.5 bg-[#1A5BA8] transition-all duration-300 rounded-full ${
+                  isProjectsDropdownOpen ? "w-full" : "w-0"
+                }`}
+              ></span>
+              <span
+                className={`absolute inset-0 bg-white/10 rounded-lg transition-transform duration-300 -z-10 ${
+                  isProjectsDropdownOpen ? "scale-100" : "scale-0"
+                }`}
+              ></span>
             </button>
 
             {/* Dropdown menu */}
-            <div className={`absolute left-0 mt-3 w-56 rounded-xl shadow-2xl bg-white ring-1 ring-black ring-opacity-5 transition-all duration-300 transform overflow-hidden ${
-              isProjectsDropdownOpen 
-                ? 'opacity-100 visible translate-y-0' 
-                : 'opacity-0 invisible translate-y-2'
-            }`}>
+            <div
+              className={`absolute left-0 mt-3 w-56 rounded-xl shadow-2xl bg-white ring-1 ring-black ring-opacity-5 transition-all duration-300 transform overflow-hidden ${
+                isProjectsDropdownOpen
+                  ? "opacity-100 visible translate-y-0"
+                  : "opacity-0 invisible translate-y-2"
+              }`}
+            >
               <div className="py-2">
                 {projectsList.map((project, index) => (
                   <a
@@ -236,8 +246,19 @@ export default function Navbar() {
             </div>
           </div>
 
-          <a 
-            href="#team" 
+          <a
+            href="#certificate"
+            className={`relative group transition-all duration-300 font-medium transform hover:scale-105 ${
+              isScrolled ? "text-gray-800" : "text-white"
+            }`}
+          >
+            <span className="relative z-10">{t("certificate")}</span>
+            <span className="absolute bottom-0 left-0 h-0.5 bg-[#1A5BA8] transition-all duration-300 w-0 group-hover:w-full rounded-full"></span>
+            <span className="absolute inset-0 bg-white/10 rounded-lg scale-0 group-hover:scale-100 transition-transform duration-300 -z-10"></span>
+          </a>
+
+          <a
+            href="#team"
             className={`relative group transition-all duration-300 font-medium transform hover:scale-105 ${
               isScrolled ? "text-gray-800" : "text-white"
             }`}
@@ -247,8 +268,8 @@ export default function Navbar() {
             <span className="absolute inset-0 bg-white/10 rounded-lg scale-0 group-hover:scale-100 transition-transform duration-300 -z-10"></span>
           </a>
 
-          <a 
-            href="#contact" 
+          <a
+            href="#contact"
             className={`relative group transition-all duration-300 font-medium transform hover:scale-105 ${
               isScrolled ? "text-gray-800" : "text-white"
             }`}
@@ -272,20 +293,20 @@ export default function Navbar() {
 
         {/* Language Selector - hover və click ilə */}
         <div className="hidden lg:flex items-center">
-          <div 
+          <div
             ref={langRef}
             className="relative"
             onMouseEnter={() => setIsLangDropdownOpen(true)}
             onMouseLeave={() => setIsLangDropdownOpen(false)}
           >
-            <button 
+            <button
               onClick={toggleLangDropdown}
               className="flex items-center px-3 py-2 cursor-pointer rounded-xl backdrop-blur-sm transition-all duration-300 transform hover:scale-105"
             >
               {locale === "az" ? (
                 <>
                   <div className="w-6 h-5 bg-[url('/svg/emojione_flag-for-azerbaijan.svg')] bg-contain bg-no-repeat mr-2"></div>
-                  <span 
+                  <span
                     className={`text-sm font-medium transition-colors duration-300 ${
                       isScrolled ? "text-gray-800" : "text-white"
                     }`}
@@ -296,7 +317,7 @@ export default function Navbar() {
               ) : (
                 <>
                   <div className="w-5 h-5 bg-[url('/svg/united-kingdom1.svg')] bg-contain bg-no-repeat mr-2"></div>
-                  <span 
+                  <span
                     className={`text-sm font-medium transition-colors duration-300 ${
                       isScrolled ? "text-gray-800" : "text-white"
                     }`}
@@ -306,21 +327,21 @@ export default function Navbar() {
                 </>
               )}
 
-              <ChevronDown 
+              <ChevronDown
                 className={`ml-2 h-4 w-4 transition-all duration-300 ${
-                  isLangDropdownOpen ? 'rotate-180' : ''
-                } ${isScrolled ? "text-gray-800" : "text-white"}`} 
+                  isLangDropdownOpen ? "rotate-180" : ""
+                } ${isScrolled ? "text-gray-800" : "text-white"}`}
               />
             </button>
 
             <div
               className={`absolute top-full right-0 w-[140px] rounded-xl cursor-pointer bg-white shadow-xl border overflow-hidden transition-all duration-300 transform ${
-                isLangDropdownOpen 
-                  ? 'opacity-100 visible translate-y-0' 
-                  : 'opacity-0 invisible translate-y-2'
+                isLangDropdownOpen
+                  ? "opacity-100 visible translate-y-0"
+                  : "opacity-0 invisible translate-y-2"
               } ${isScrolled ? "bg-opacity-95" : "bg-opacity-30"}`}
             >
-              <div 
+              <div
                 onClick={() => changeLocale(locale === "az" ? "en" : "az")}
                 className="flex items-center py-3 px-4 hover:bg-[#1A5BA8] hover:text-white transition-all duration-300"
               >
@@ -343,20 +364,28 @@ export default function Navbar() {
         {/* Mobile menu button */}
         <button
           className={`lg:hidden focus:outline-none transition-all duration-300 mt-2 flex justify-center transform hover:scale-110 p-2 rounded-lg ${
-            isScrolled ? "text-gray-800 hover:bg-gray-100" : "text-white hover:bg-white/20"
+            isScrolled
+              ? "text-gray-800 hover:bg-gray-100"
+              : "text-white hover:bg-white/20"
           }`}
           onClick={toggleMobileMenu}
         >
           <div className="relative w-6 h-6 pt-2.5 mx-2 flex item-center justify-center">
-            <span className={`absolute block h-0.5 w-6 transform transition-all duration-300 ${
-              isMobileMenuOpen ? 'rotate-45 translate-y-0' : '-translate-y-2'
-            } ${isScrolled ? 'bg-gray-800' : 'bg-white'}`}></span>
-            <span className={`absolute block h-0.5 w-6 transform transition-all duration-300 ${
-              isMobileMenuOpen ? 'opacity-0' : 'opacity-100'
-            } ${isScrolled ? 'bg-gray-800' : 'bg-white'}`}></span>
-            <span className={`absolute block h-0.5 w-6 transform transition-all duration-300 ${
-              isMobileMenuOpen ? '-rotate-45 translate-y-0' : 'translate-y-2'
-            } ${isScrolled ? 'bg-gray-800' : 'bg-white'}`}></span>
+            <span
+              className={`absolute block h-0.5 w-6 transform transition-all duration-300 ${
+                isMobileMenuOpen ? "rotate-45 translate-y-0" : "-translate-y-2"
+              } ${isScrolled ? "bg-gray-800" : "bg-white"}`}
+            ></span>
+            <span
+              className={`absolute block h-0.5 w-6 transform transition-all duration-300 ${
+                isMobileMenuOpen ? "opacity-0" : "opacity-100"
+              } ${isScrolled ? "bg-gray-800" : "bg-white"}`}
+            ></span>
+            <span
+              className={`absolute block h-0.5 w-6 transform transition-all duration-300 ${
+                isMobileMenuOpen ? "-rotate-45 translate-y-0" : "translate-y-2"
+              } ${isScrolled ? "bg-gray-800" : "bg-white"}`}
+            ></span>
           </div>
         </button>
       </div>
@@ -423,17 +452,21 @@ export default function Navbar() {
                 className="w-full flex justify-between items-center py-4 text-gray-800 hover:text-[#1A5BA8] transition-all duration-300 font-medium hover:translate-x-2 hover:bg-gray-50 rounded-lg px-2"
               >
                 <span>{t("projects")}</span>
-                <ChevronDown 
-                  size={16} 
+                <ChevronDown
+                  size={16}
                   className={`transition-transform duration-300 ${
-                    isProjectsDropdownOpen ? 'rotate-180' : 'rotate-90'
+                    isProjectsDropdownOpen ? "rotate-180" : "rotate-90"
                   }`}
                 />
               </button>
 
-              <div className={`overflow-hidden transition-all duration-300 ${
-                isProjectsDropdownOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
-              }`}>
+              <div
+                className={`overflow-hidden transition-all duration-300 ${
+                  isProjectsDropdownOpen
+                    ? "max-h-96 opacity-100"
+                    : "max-h-0 opacity-0"
+                }`}
+              >
                 <div className="pl-4 pb-2 space-y-1">
                   {projectsList.map((project, index) => (
                     <a

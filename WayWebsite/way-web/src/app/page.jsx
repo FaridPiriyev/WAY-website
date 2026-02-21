@@ -12,6 +12,8 @@ import ContactSection from "@/components/HomePage/ContactUs&MapSection/Contact&M
 import { useEffect, useState, useRef } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import Footer from "@/components/Footer/Footer";
+import certificates from "@/../certificate/id.json";
+import certificateImg from "@/../public/images/others/certificate_qr.jpg";
 
 const useIntersectionObserver = (options = {}) => {
   const [entries, setEntries] = useState([]);
@@ -149,22 +151,20 @@ export default function Home() {
   const tMission = useTranslations("mission");
   const tVision = useTranslations("vision");
   const tProjects = useTranslations("projects");
-  const [currentSlide, setCurrentSlide] = useState(0)
+  const tCertificate = useTranslations("certificate");
+  const [currentSlide, setCurrentSlide] = useState(0);
 
   const searchParams = useSearchParams();
   const router = useRouter();
   const sliderRef = useRef(null);
 
   const handleSwipeRight = () => {
-    console.log("handleSwipeRight çağrıldı");
-    console.log("sliderRef.current:", sliderRef.current);
     sliderRef.current?.slideToEnd();
   };
+
   useEffect(() => {
     const scrollTo = searchParams.get("scrollTo");
     if (!scrollTo) return;
-
-    console.log("ScrollTo parameter found:", scrollTo);
 
     const performScroll = () => {
       let attempts = 0;
@@ -174,8 +174,6 @@ export default function Home() {
         const element = document.getElementById(scrollTo);
 
         if (element) {
-          console.log("Element found, scrolling...");
-
           element.scrollIntoView({
             behavior: "smooth",
             block: "start",
@@ -183,27 +181,13 @@ export default function Home() {
 
           const currentUrl = new URL(window.location.href);
           currentUrl.searchParams.delete("scrollTo");
-
           window.history.replaceState(
             {},
             document.title,
-            currentUrl.pathname + currentUrl.search
+            currentUrl.pathname + currentUrl.search,
           );
-
-          console.log("Scroll completed and URL cleaned");
         } else if (attempts < maxAttempts) {
-          console.log(`Element not found, attempt ${attempts}/${maxAttempts}`);
           setTimeout(tryScroll, 2000);
-        } else {
-          console.log("Max attempts reached, element not found");
-
-          const currentUrl = new URL(window.location.href);
-          currentUrl.searchParams.delete("scrollTo");
-          window.history.replaceState(
-            {},
-            document.title,
-            currentUrl.pathname + currentUrl.search
-          );
         }
       };
 
@@ -223,6 +207,54 @@ export default function Home() {
     };
   }, [searchParams, router]);
 
+  const [certId, setCertId] = useState("");
+  const [result, setResult] = useState(null);
+  const [error, setError] = useState(false);
+
+  const handleCheck = () => {
+    const found = certificates.find(
+      (c) => c.id.trim().toUpperCase() === certId.trim().toUpperCase(),
+    );
+    if (found) {
+      setResult(found);
+      setError(false);
+    } else {
+      setResult(null);
+      setError(true);
+    }
+  };
+
+  const handleDownloadPDF = (pdfPath) => {
+    if (!pdfPath) {
+      alert("Bu sertifikat üçün PDF faylı tapılmadı!");
+      return;
+    }
+    window.open(pdfPath, "_blank");
+  };
+
+  useEffect(() => {
+    const urlId = searchParams.get("id");
+    if (urlId) {
+      setCertId(urlId);
+
+      const found = certificates.find(
+        (c) => c.id.trim().toUpperCase() === urlId.trim().toUpperCase(),
+      );
+
+      if (found) {
+        setResult(found);
+        setError(false);
+        setTimeout(() => {
+          document
+            .getElementById("certificate")
+            ?.scrollIntoView({ behavior: "smooth" });
+        }, 500);
+      } else {
+        setError(true);
+      }
+    }
+  }, [searchParams]);
+
   return (
     <div className="min-h-screen justify-center">
       <Head>
@@ -234,7 +266,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {/* Navbar Component */}
       <div className="hover:shadow-lg transition-shadow duration-300">
         <Navbar />
       </div>
@@ -367,7 +398,7 @@ export default function Home() {
                     alt="Team meeting"
                     layout="fill"
                     objectFit="cover"
-                    className="rounded-lg transition-all duration-700 group-hover:brightness-110 group-hover:contrast-110"
+                    className="rounded-lg transition-all duration-700 group-hover:brightness-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-lg"></div>
                 </div>
@@ -379,23 +410,21 @@ export default function Home() {
 
       {/* Mission & Vision Section */}
       <section className="py-16 bg-white" id="vision">
-        <div className="container mx-auto px-4 ">
+        <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto container">
             <AnimatedSection
               animationType="fadeInLeft"
               className="flex justify-center"
             >
-              {/* Mission Box */}
               <div className="border-[3px] border-[#15529F] rounded-2xl p-8 w-[400px] group relative overflow-hidden transform transition-all duration-500 hover:scale-105 hover:-translate-y-4 hover:rotate-1 hover:shadow-2xl hover:shadow-blue-200/30">
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-50/0 via-blue-50/50 to-blue-100/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                <div className="absolute -inset-1 bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 rounded-2xl opacity-0 group-hover:opacity-20 blur transition-all duration-500 -z-10"></div>
                 <div className="flex items-center mb-4 relative z-10">
                   <div className="p-3 rounded-full mr-3 transform transition-all duration-500 group-hover:scale-110 group-hover:rotate-12">
                     <Image
                       className="h-10 w-10 transition-all duration-500 group-hover:brightness-110"
                       priority
                       src={goal}
-                      alt="Follow us on Twitter"
+                      alt="Goal"
                     />
                   </div>
                   <h3 className="text-2xl font-bold text-gray-800 ml-8 group-hover:text-[#15529F] transition-colors duration-300">
@@ -412,17 +441,15 @@ export default function Home() {
               animationType="fadeInRight"
               className="flex justify-center"
             >
-              {/* Vision Box */}
               <div className="border-[3px] border-[#15529F] rounded-2xl p-8 w-[400px] group relative overflow-hidden transform transition-all duration-500 hover:scale-105 hover:-translate-y-4 hover:-rotate-1 hover:shadow-2xl hover:shadow-purple-200/30">
                 <div className="absolute inset-0 bg-gradient-to-br from-purple-50/0 via-purple-50/50 to-purple-100/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                <div className="absolute -inset-1 bg-gradient-to-r from-purple-400 via-pink-500 to-purple-600 rounded-2xl opacity-0 group-hover:opacity-20 blur transition-all duration-500 -z-10"></div>
                 <div className="flex items-center mb-4 relative z-10">
                   <div className="p-3 rounded-full border-black mr-4 transform transition-all duration-500 group-hover:scale-110 group-hover:-rotate-12">
                     <Image
                       className="h-10 w-10 transition-all duration-500 group-hover:brightness-110"
                       priority
                       src={ideaIcon}
-                      alt="Follow us on Twitter"
+                      alt="Vision"
                     />
                   </div>
                   <h3 className="text-2xl font-bold text-gray-800 text-center ml-5 group-hover:text-[#15529F] transition-colors duration-300">
@@ -440,73 +467,185 @@ export default function Home() {
 
       <AnimatedSection
         animationType="fadeInUp"
-        className="container mx-auto  transition-shadow duration-500"
+        className="container mx-auto transition-shadow duration-500"
         id="objectives"
       >
-        <div className="" id="objectives">
-          <Objectives />
-        </div>
+        <Objectives />
       </AnimatedSection>
 
+      {/* Slider Section */}
+      <section className="container mx-auto max-w-7xl" id="projects">
+        <AnimatedSection animationType="fadeInUp">
+          <h2 className="text-4xl font-bold text-[#15529F] mb-10 ml-5 hover:text-[#1a5ba8] transition-all duration-300 cursor-default">
+            {tProjects("projects_title")}
+          </h2>
+        </AnimatedSection>
 
-
-{/* Slider Section */}
-<section className="container mx-auto max-w-7xl" id="projects">
-  <AnimatedSection animationType="fadeInUp">
-    <h2 className="text-4xl font-bold text-[#15529F] mb-10 ml-5 hover:text-[#1a5ba8] transition-all duration-300 cursor-default hover:drop-shadow-sm hover:tracking-wide">
-      {tProjects("projects_title")}
-    </h2>
-  </AnimatedSection>
-
-  <AnimatedSection
-    animationType="scaleIn"
-    className="container mx-auto bg-[#C1CDDC] rounded-4xl px-4 mb-5 group"
-  >
-    <div className="">
-      <Slider ref={sliderRef} onSlideChange={setCurrentSlide} />
-    </div>
-  </AnimatedSection>
-
-  <div className="">
-  <AnimatedSection animationType="fadeInUp">
-    <div className="flex justify-center gap-2  lg:visible invisible">
-      {Array.from({ length: 5 }).map((_, idx) => (
-        <button
-          key={idx}
-          onClick={() => sliderRef.current?.handleDotClick(idx)}
-          className={`w-2 h-2 rounded-full transition-all duration-300 cursor-pointer ${
-            currentSlide === idx
-              ? "bg-blue-600 w-8"
-              : "bg-gray-300 hover:bg-gray-400"
-          }`}
-          aria-label={`Go to slide ${idx + 1}`}
-        />
-      ))}
-    </div>
-  </AnimatedSection>
-
-  <AnimatedSection
-    animationType="fadeInRight"
-    className="w-full flex justify-end"
-  >
-    <div className="w-full items-center flex justify-end gap-3 mr-6 cursor-pointer">
-      <div className="group flex gap-2">
-        <h1
-          onClick={handleSwipeRight}
-          className="font-bold group-hover:text-[#15529F] transition-colors duration-300 group-hover:tracking-wide"
+        <AnimatedSection
+          animationType="scaleIn"
+          className="container mx-auto bg-[#C1CDDC] rounded-4xl px-4 mb-5 group"
         >
-          {tProjects("swipe_right")}
-        </h1>
-        <img
-          src="/svg/Arrow 1.svg"
-          alt="Youth meeting"
-          className="animate-pulse transform transition-all duration-300 group-hover:translate-x-2 group-hover:scale-110 group-hover:brightness-110"
-        />
-      </div>
-    </div>
-  </AnimatedSection>
-  </div>
-</section>
+          <Slider ref={sliderRef} onSlideChange={setCurrentSlide} />
+        </AnimatedSection>
+
+        <AnimatedSection animationType="fadeInUp">
+          <div className="flex justify-center gap-2 lg:visible invisible">
+            {Array.from({ length: 5 }).map((_, idx) => (
+              <button
+                key={idx}
+                onClick={() => sliderRef.current?.handleDotClick(idx)}
+                className={`w-2 h-2 rounded-full transition-all duration-300 cursor-pointer ${currentSlide === idx ? "bg-blue-600 w-8" : "bg-gray-300 hover:bg-gray-400"}`}
+                aria-label={`Go to slide ${idx + 1}`}
+              />
+            ))}
+          </div>
+        </AnimatedSection>
+
+        <AnimatedSection
+          animationType="fadeInRight"
+          className="w-full flex justify-end"
+        >
+          <div className="w-full items-center flex justify-end gap-3 mr-6 cursor-pointer">
+            <div className="group flex gap-2">
+              <h1
+                onClick={handleSwipeRight}
+                className="font-bold group-hover:text-[#15529F] transition-colors duration-300 group-hover:tracking-wide"
+              >
+                {tProjects("swipe_right")}
+              </h1>
+              <img
+                src="/svg/Arrow 1.svg"
+                alt="Arrow"
+                className="animate-pulse transform transition-all duration-300 group-hover:translate-x-2 group-hover:scale-110"
+              />
+            </div>
+          </div>
+        </AnimatedSection>
+      </section>
+
+      {/* Certificate Verification Section */}
+      <section
+        className="container mx-auto max-w-7xl py-16 px-4"
+        id="certificate"
+      >
+        <AnimatedSection animationType="fadeInUp">
+          <h2 className="text-4xl font-bold text-[#15529F] mb-12 ml-2 hover:text-[#1a5ba8] transition-all duration-500 transform hover:translate-x-3 cursor-default">
+            {tCertificate("title")}
+          </h2>
+
+          <div className="max-w-7xl mx-auto bg-slate-50/50 backdrop-blur-3xl p-8 md:p-14 rounded-[3rem] border border-white shadow-2xl relative overflow-hidden group">
+            <div className="absolute right-[-10%] top-[-10%] w-[70%] h-[120%] opacity-70 group-hover:opacity-90 group-hover:scale-110 transition-all duration-1000 pointer-events-none z-0">
+              <Image
+                src={certificateImg}
+                alt="background-certificate"
+                layout="fill"
+                objectFit="contain"
+                className="rotate-[-10deg]"
+                priority
+              />
+            </div>
+
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[500px] bg-blue-500/5 rounded-full blur-[120px] pointer-events-none" />
+
+            <div className="w-full lg:w-2/3 relative z-10">
+              <div className="text-left mb-10">
+                <span className="inline-block px-4 py-1 bg-blue-100 text-blue-700 text-xs font-bold rounded-full mb-4 tracking-widest uppercase animate-pulse">
+                  Rəsmi Doğrulama
+                </span>
+                <h2 className="text-4xl md:text-5xl font-black text-slate-900 mb-5 tracking-tight leading-tight transition-all duration-700 group-hover:text-blue-900">
+                  WAY Sertifikat <br />
+                  <span className="text-blue-600 inline-block hover:translate-x-2 transition-transform duration-500 cursor-default">
+                    Skaner Sistemi
+                  </span>
+                </h2>
+                <p className="text-slate-500 text-lg font-medium leading-relaxed max-w-md opacity-90 tracking-tight transition-all duration-700 hover:translate-x-2">
+                  Sertifikatın rəsmiliyini yoxlamaq və rəqəmsal versiyanı əldə
+                  etmək üçün identifikatoru daxil edin.
+                </p>
+              </div>
+
+              <div className="relative mb-8 max-w-xl transform transition-all duration-500 hover:scale-[1.02]">
+                <input
+                  type="text"
+                  value={certId}
+                  onChange={(e) => setCertId(e.target.value)}
+                  placeholder="WAY-XXXX-XXX"
+                  className="w-full px-8 py-6 bg-white border-2 border-slate-200 focus:border-blue-500 rounded-3xl outline-none transition-all duration-300 text-lg font-mono shadow-sm focus:shadow-xl focus:shadow-blue-100"
+                />
+                <button
+                  onClick={handleCheck}
+                  className="absolute right-3 top-3 bottom-3 px-10 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-2xl transition-all active:scale-95 shadow-lg hover:shadow-blue-400/40"
+                >
+                  Yoxla
+                </button>
+              </div>
+
+              <div className="min-h-[120px] max-w-xl">
+                {result && (
+                  <div className="bg-white border-l-8 border-emerald-500 p-8 rounded-3xl shadow-2xl animate-in fade-in slide-in-from-left-8 duration-700 ease-out">
+                    <div className="flex justify-between items-start mb-6 gap-4">
+                      <div className="space-y-1 animate-in fade-in slide-in-from-top-2 duration-1000 delay-200">
+                        <h4 className="font-black text-slate-900 text-2xl tracking-tight">
+                          Sertifikat Rəsmidi
+                        </h4>
+                        <p className="text-emerald-600 font-bold flex items-center gap-2">
+                          <span className="w-2 h-2 bg-emerald-500 rounded-full animate-ping" />
+                          Orijinal Sertifikat
+                        </p>
+                      </div>
+
+                      <button
+                        onClick={() => handleDownloadPDF(result.pdf)}
+                        className="flex items-center gap-2 bg-slate-900 hover:bg-blue-600 text-white text-[10px] font-black py-4 px-6 rounded-2xl transition-all active:scale-90 shadow-xl hover:-translate-y-1 whitespace-nowrap"
+                      >
+                        PDF YÜKLƏ
+                      </button>
+                    </div>
+
+                    <div className="grid grid-cols-2 gap-y-6 pt-6 border-t border-slate-100">
+                      <div className="space-y-1">
+                        <p className="text-[10px] text-slate-400 uppercase font-black tracking-widest">
+                          Ad Soyad
+                        </p>
+                        <p className="font-bold text-slate-800 text-lg">
+                          {result.fullName}
+                        </p>
+                      </div>
+                      <div className="space-y-1">
+                        <p className="text-[10px] text-slate-400 uppercase font-black tracking-widest">
+                          Verilmə Tarixi
+                        </p>
+                        <p className="font-bold text-slate-800 text-lg">
+                          {result.issueDate}
+                        </p>
+                      </div>
+                      <div className="col-span-2 space-y-1">
+                        <p className="text-[10px] text-slate-400 uppercase font-black tracking-widest">
+                          Proqram Adı
+                        </p>
+                        <p className="font-bold text-slate-800 text-lg leading-relaxed">
+                          {result.project}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                )}
+
+                {error && (
+                  <div className="bg-rose-50 border-l-8 border-rose-500 p-8 rounded-3xl animate-in fade-in zoom-in-95 duration-500">
+                    <h4 className="text-rose-900 font-black text-xl italic animate-pulse">
+                      Sertifikat Tapılmadı!
+                    </h4>
+                    <p className="text-rose-600 font-medium">
+                      Bu kod üzrə aktiv bir sertifikat qeydiyyatı mövcud deyil.
+                    </p>
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        </AnimatedSection>
+      </section>
 
       {/* Team Sections */}
       <AnimatedSection
@@ -514,22 +653,16 @@ export default function Home() {
         className="container mx-auto mb-10"
         id="team"
       >
-        <div className="">
-          <TeamSectionEnhanced />
-        </div>
+        <TeamSectionEnhanced />
       </AnimatedSection>
 
       {/* Map section */}
       <AnimatedSection animationType="fadeInUp" id="contact">
-        <div className="" id="contact">
-          <ContactSection />
-        </div>
+        <ContactSection />
       </AnimatedSection>
 
       <AnimatedSection animationType="fadeInUp">
-        <div className="transform transition-all duration-300  ">
-          <Footer />
-        </div>
+        <Footer />
       </AnimatedSection>
     </div>
   );

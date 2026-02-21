@@ -4,14 +4,13 @@
     "about": "About Us",
     "activities": "Objectives",
     "projects": "Our Projects",
+    "certificate": "Check Certificate",
     "team": "Our Team",
     "contact": "Contact",
-    "blog":"Blogs"
+    "blog": "Blogs"
   },
- 
-  
+
   "navdropdown": {
-   
     "projects": {
       "ai4culture": "AI4Culture",
       "digitalDiplomats": "Digital Diplomats",
@@ -21,8 +20,6 @@
       "LearnFrom": "Learn from a Professional"
     }
   },
-
-
 
   "hero": {
     "title1": "World Azerbaijanis",
@@ -95,72 +92,73 @@
     "phone": "+994 (012) 597 56 19"
   },
 
- "Team": {
-  "teamTitle": "Team",
+  "certificate": {
+    "title": "Check Certificate"
+  },
 
-  "raminHebibzade_title": "Chairman",
+  "Team": {
+    "teamTitle": "Team",
 
-  "ayxanHuseynov_title": "Secretary General",
+    "raminHebibzade_title": "Chairman",
 
-  "mirhuseynTagiyev_title": "Deputy Chairman",
+    "ayxanHuseynov_title": "Secretary General",
 
-  "sevincEhmedova_title": "Graphic Designer",
+    "mirhuseynTagiyev_title": "Deputy Chairman",
 
-  "nurayResulzade_title": "Project Manager",
+    "sevincEhmedova_title": "Graphic Designer",
 
-  "remaleHesenova_title": "Social Media Manager",
+    "nurayResulzade_title": "Project Manager",
 
-  "ayxanIsmayilov_title": "International Relations Manager",
+    "remaleHesenova_title": "Social Media Manager",
 
-  "ceyhunMahmudov_title": "Videographer",
+    "ayxanIsmayilov_title": "International Relations Manager",
 
-  "raufHuseynzade_title": "Software Developer"
-},
+    "ceyhunMahmudov_title": "Videographer",
 
+    "raufHuseynzade_title": "Software Developer"
+  },
 
   "projects": {
-  "projects_title": "Our Projects",
-  "swipe_right": "Swipe to the right",
+    "projects_title": "Our Projects",
+    "swipe_right": "Swipe to the right",
 
-  "digital_diplomats_project": "“Digital Diplomats” Project",
-  "digital_diplomats_description": "The 'Digital Diplomats' project, implemented with the financial support of the State Support Agency for Non-Governmental Organizations of the Republic of Azerbaijan, has been successfully completed.",
+    "digital_diplomats_project": "“Digital Diplomats” Project",
+    "digital_diplomats_description": "The 'Digital Diplomats' project, implemented with the financial support of the State Support Agency for Non-Governmental Organizations of the Republic of Azerbaijan, has been successfully completed.",
 
-  "young_envoys_project": "“Young Envoys of Western Azerbaijan” Project",
-  "young_envoys_description": "In the final stage of the project, successful participants will be awarded with diplomas.",
+    "young_envoys_project": "“Young Envoys of Western Azerbaijan” Project",
+    "young_envoys_description": "In the final stage of the project, successful participants will be awarded with diplomas.",
 
-  "green_goal_project": "“Green Goal: The COP29 Mission of Azerbaijani Youth” Project",
-  "green_goal_description": "With the financial support of the Foundation, we launched the 'Green Goal: The COP29 Mission of Azerbaijani Youth' project!",
+    "green_goal_project": "“Green Goal: The COP29 Mission of Azerbaijani Youth” Project",
+    "green_goal_description": "With the financial support of the Foundation, we launched the 'Green Goal: The COP29 Mission of Azerbaijani Youth' project!",
 
-  "python_training": "Python Trainings",
-  "python_training_description": "The World Union of Azerbaijani Youth conducted free Python training sessions.",
+    "python_training": "Python Trainings",
+    "python_training_description": "The World Union of Azerbaijani Youth conducted free Python training sessions.",
 
-  "ai4culture_project": "“AI4Culture: Digital Transformation of Culture” Project",
-  "ai4culture_description": "Within the 'AI4Culture: Digital Transformation of Culture' project, participants gained theoretical and practical knowledge on the application of artificial intelligence and digital technologies in the cultural field.",
+    "ai4culture_project": "“AI4Culture: Digital Transformation of Culture” Project",
+    "ai4culture_description": "Within the 'AI4Culture: Digital Transformation of Culture' project, participants gained theoretical and practical knowledge on the application of artificial intelligence and digital technologies in the cultural field.",
 
-  "z_gen_in_business_project": "“Generation Z in Business: Learn from a Professional” Project",
-  "z_gen_in_business_description": "Gen Z is on stage! This project will give you an inside look into the business world. Meet real professionals, develop your skills, and make a difference!"
-
-  
-},
-"DigitalDiplomatsPage":{
-  "project": "“Digital Diplomats” project",
-  "projects": "Home",
-  "digitalDiplomats": "Digital Diplomats",
-  "description": "The 'Digital Diplomats' project, implemented with the financial support of the Agency for State Support to Non-Governmental Organizations of the Republic of Azerbaijan, was successfully completed. During the project, participants gained a deeper understanding of the importance of combating disinformation and learned ways to ensure information security in the modern era. The youth participated in meetings with professional experts to develop analytical thinking and critical reasoning skills.",
-  "sessionsIntro": "It should be noted that 6 meetings and 2 infotours were held within the framework of the project:",
-  "meetings": "Meetings",
-  "meetingList": [
-    "Discussions were held with the first Prime Minister of the Republic of Azerbaijan, Hasan Hasanov, on the topic of 'Organizing diplomatic activity in the media'.",
-    "Fuad Chiragov, Deputy Director of the South Caucasus Research Center, shared valuable insights on the role of youth in foreign policy through the use of social media tools.",
-    "Spokesperson of the Ministry of Foreign Affairs, Ayxan Hacizade, increased participants' knowledge on the topic of foreign policy communication.",
-    "Head of Department of Real TV, Vafa Agabalayeva, shared her experience regarding 'Fake news' against Azerbaijan during the 44-day Patriotic War.",
-    "Aygun Aliyeva from the NGO Support Agency discussed the participation of non-governmental organizations in COP28.",
-    "Member of Parliament Naqif Hamzayev gave a presentation on digital influence and diplomacy, discussing how to enhance Azerbaijan's international reputation."
-  ],
-  "conclusion": "The main goal of the 'Digital Diplomats' project was to turn participants into more prepared specialists in the fight against disinformation.",
-  "infotours": "Infotours",
-  "infotourDesc": "Participants visited Report News Agency and Real TV to observe the media workflow and gain practical knowledge."
-},
+    "z_gen_in_business_project": "“Generation Z in Business: Learn from a Professional” Project",
+    "z_gen_in_business_description": "Gen Z is on stage! This project will give you an inside look into the business world. Meet real professionals, develop your skills, and make a difference!"
+  },
+  "DigitalDiplomatsPage": {
+    "project": "“Digital Diplomats” project",
+    "projects": "Home",
+    "digitalDiplomats": "Digital Diplomats",
+    "description": "The 'Digital Diplomats' project, implemented with the financial support of the Agency for State Support to Non-Governmental Organizations of the Republic of Azerbaijan, was successfully completed. During the project, participants gained a deeper understanding of the importance of combating disinformation and learned ways to ensure information security in the modern era. The youth participated in meetings with professional experts to develop analytical thinking and critical reasoning skills.",
+    "sessionsIntro": "It should be noted that 6 meetings and 2 infotours were held within the framework of the project:",
+    "meetings": "Meetings",
+    "meetingList": [
+      "Discussions were held with the first Prime Minister of the Republic of Azerbaijan, Hasan Hasanov, on the topic of 'Organizing diplomatic activity in the media'.",
+      "Fuad Chiragov, Deputy Director of the South Caucasus Research Center, shared valuable insights on the role of youth in foreign policy through the use of social media tools.",
+      "Spokesperson of the Ministry of Foreign Affairs, Ayxan Hacizade, increased participants' knowledge on the topic of foreign policy communication.",
+      "Head of Department of Real TV, Vafa Agabalayeva, shared her experience regarding 'Fake news' against Azerbaijan during the 44-day Patriotic War.",
+      "Aygun Aliyeva from the NGO Support Agency discussed the participation of non-governmental organizations in COP28.",
+      "Member of Parliament Naqif Hamzayev gave a presentation on digital influence and diplomacy, discussing how to enhance Azerbaijan's international reputation."
+    ],
+    "conclusion": "The main goal of the 'Digital Diplomats' project was to turn participants into more prepared specialists in the fight against disinformation.",
+    "infotours": "Infotours",
+    "infotourDesc": "Participants visited Report News Agency and Real TV to observe the media workflow and gain practical knowledge."
+  },
 
   "climateProject": {
     "title": "Goal: Mission of Azerbaijani Youth at COP29",
@@ -175,71 +173,71 @@
     "photoCompetition": "Within the framework of the project, the winners of the 'My Green Country' photo competition were announced and awarded. The winning photos were presented to the event participants in an exhibition format. All such events aimed to support participants' ecological awareness, their active involvement in the COP29 process, and finding solutions to ecological problems."
   },
 
-    "WestAzerbaijan": {
-  "projectTitle": "Young Ambassadors of Western Azerbaijan",
-  "projectsTitle": "Home",
-  "intro1": "The 'Young Ambassadors of Western Azerbaijan' project aims to enhance the knowledge and awareness of young people from Western Azerbaijan regarding national memory, history, and cultural identity. Within the project, youth are informed in detail about the historical heritage, deportation events, cultural monuments, and national values of the region. They also participate in various trainings related to public speaking, diplomatic approach, conflict resolution, and the young ambassador mission.",
-  "intro2": "Supported by the Ministry of Youth and Sports of the Republic of Azerbaijan and organized by the World Union of Azerbaijani Youth, in partnership with the Western Azerbaijan Community and the Youth Development and Career Center, the project aims to train young ambassadors who will represent and promote the realities of Western Azerbaijan in the international arena.",
-  "goal": "The goal of the project is to support the international cooperation of young people from both Western Azerbaijan and other regions, educating them with deep knowledge of diplomatic protocol, international relations, and history. 40 participants (25 in-person and 15 online) met with diplomats and officials, learned about the history and realities of Western Azerbaijan, improved their public speaking skills, and gained practical knowledge.",
-  "selection": "It should be noted that the selection process for young ambassadors of Western Azerbaijan consisted of 3 stages. Initially, interested youth registered online, then participated in both in-person and online interviews. Those selected gained the right to participate in the test phase. Successful candidates in the test phase earned the right to join the project. Additionally, 121 individuals had applied for participation in total.",
-  "meetingsTitle": "Meetings held within the framework of the project:",
+  "WestAzerbaijan": {
+    "projectTitle": "Young Ambassadors of Western Azerbaijan",
+    "projectsTitle": "Home",
+    "intro1": "The 'Young Ambassadors of Western Azerbaijan' project aims to enhance the knowledge and awareness of young people from Western Azerbaijan regarding national memory, history, and cultural identity. Within the project, youth are informed in detail about the historical heritage, deportation events, cultural monuments, and national values of the region. They also participate in various trainings related to public speaking, diplomatic approach, conflict resolution, and the young ambassador mission.",
+    "intro2": "Supported by the Ministry of Youth and Sports of the Republic of Azerbaijan and organized by the World Union of Azerbaijani Youth, in partnership with the Western Azerbaijan Community and the Youth Development and Career Center, the project aims to train young ambassadors who will represent and promote the realities of Western Azerbaijan in the international arena.",
+    "goal": "The goal of the project is to support the international cooperation of young people from both Western Azerbaijan and other regions, educating them with deep knowledge of diplomatic protocol, international relations, and history. 40 participants (25 in-person and 15 online) met with diplomats and officials, learned about the history and realities of Western Azerbaijan, improved their public speaking skills, and gained practical knowledge.",
+    "selection": "It should be noted that the selection process for young ambassadors of Western Azerbaijan consisted of 3 stages. Initially, interested youth registered online, then participated in both in-person and online interviews. Those selected gained the right to participate in the test phase. Successful candidates in the test phase earned the right to join the project. Additionally, 121 individuals had applied for participation in total.",
+    "meetingsTitle": "Meetings held within the framework of the project:",
     "meeting1_prefix": "1st meeting:",
-  "meeting1_content": "Held by renowned public and political figure Misir Mardanov, Chairman of the Supervisory Board of the Western Azerbaijan Community, on the topic: 'Historical Memory: Missions of Young Ambassadors in Defending the Right to Return'.",
-  "meeting2_prefix": "2nd meeting:",
-  "meeting2_content": "Held by Shahin Ismayilov, Deputy Chairman of the Supervisory and Audit Committee of the Western Azerbaijan Community and Chair of the Youth and Sports Committee of the National Assembly of Azerbaijan, on the topic: 'How can youth contribute to the return to Western Azerbaijan?'",
-  "meeting3_prefix": "3rd meeting:",
-  "meeting3_content": "Held by Kaya Mammadov, Member of the National Assembly and Deputy Chairman of the Board of the Western Azerbaijan Community, on the topic: 'Legal Foundations of Return: International Law and Azerbaijan’s Perspective'.",
-  "meeting4_prefix": "4th meeting:",
-  "meeting4_content": "Held by Hasan Hasanov, the first Prime Minister of Azerbaijan, Ambassador Extraordinary and Plenipotentiary, Doctor of Historical Sciences, Professor, on the topic: 'The Foundation and Historical Borders of the Atropatena State'.",
-  "meeting5_prefix": "5th meeting:",
-  "meeting5_content": "Held by Rizvan Nabiyev, Member of the National Assembly and Doctor of Political Sciences, on the topic: 'Return and Parliamentary Diplomacy'.",
-  "meeting6_prefix": "6th meeting:",
-  "meeting6_content": "A panel discussion held by Members of the National Assembly Nigar Mammadova, Sabina Khasiyeva, and Nagif Hamzayev on the topic: 'Promoting Return in International Representation: Tasks and Steps'.",
-  "closingTitle": "Closing Ceremony:",
-  "closingContent": "Deputy Minister of Youth and Sports Indira Hajiyeva and MP, Deputy Chairman of the Board of the Western Azerbaijan Community Kaya Mammadov held extensive discussions with young ambassadors on the concept of return, its importance, and the responsibilities falling upon youth. The young people voiced their ideas and proposals for the continuation of the project and received answers to their questions about future plans.",
-  "awards": "Participants who successfully completed the project were awarded diplomas and plaques by the World Union of Azerbaijani Youth.",
-  "presentedBy": "Awards were presented to the young ambassadors by Indira Hajiyeva, Kaya Mammadov, Director of the Youth Development and Career Center Azer Aliyev, and Chairman of the World Union of Azerbaijani Youth Ramin Habibzade."
-},
-"LearnFrom":{
-  "title": "\"Generation Z in the Business World: Learn from a Professional\" project",
-  "breadcrumb_projects": "Home",
-  "breadcrumb_page": "Learn from a Professional",
-  "paragraph_1": "The aim of the \"Generation Z in the Business World: Learn from a Professional\" project is to contribute to the professional development of young people by helping them better integrate into the business world and align with labor market demands.",
-  "paragraph_2": "Throughout the 3-month project, participants will meet with successful business leaders from various fields, representatives of the banking sector, and professionals who are influential in the labor market to gain valuable knowledge across multiple domains.",
-  "paragraph_3": "At the final stage of the project, successful participants will be awarded certificates. Two particularly active participants will receive an official letter of recommendation in Azerbaijani or English from the World Union of Azerbaijani Youth."
-},
-"pythonTraining":{
-  "python_title": "Python Trainings",
-  "breadcrumb_projects": "Home",
-  "breadcrumb_page_python": "Python Trainings",
-  "paragraph_1": "The World Union of Azerbaijani Youth organized free Python trainings.",
-  "paragraph_2": "As the initial stage of the project, a testing phase was conducted and successfully completed. Selected participants received training based on modern methodologies in a series of sessions. They gained basic and intermediate knowledge of Python, improved their ability to understand and write code, gained experience in teamwork and built professional networks, while working on both theoretical and practical lessons and projects.",
-  "paragraph_3": "In addition to theoretical knowledge, the project included practical tasks and real-life project work. During this period, participants learned the fundamentals of programming, completed practical exercises, and improved their skills. At the end of the project, successful participants were awarded certificates."
-},
+    "meeting1_content": "Held by renowned public and political figure Misir Mardanov, Chairman of the Supervisory Board of the Western Azerbaijan Community, on the topic: 'Historical Memory: Missions of Young Ambassadors in Defending the Right to Return'.",
+    "meeting2_prefix": "2nd meeting:",
+    "meeting2_content": "Held by Shahin Ismayilov, Deputy Chairman of the Supervisory and Audit Committee of the Western Azerbaijan Community and Chair of the Youth and Sports Committee of the National Assembly of Azerbaijan, on the topic: 'How can youth contribute to the return to Western Azerbaijan?'",
+    "meeting3_prefix": "3rd meeting:",
+    "meeting3_content": "Held by Kaya Mammadov, Member of the National Assembly and Deputy Chairman of the Board of the Western Azerbaijan Community, on the topic: 'Legal Foundations of Return: International Law and Azerbaijan’s Perspective'.",
+    "meeting4_prefix": "4th meeting:",
+    "meeting4_content": "Held by Hasan Hasanov, the first Prime Minister of Azerbaijan, Ambassador Extraordinary and Plenipotentiary, Doctor of Historical Sciences, Professor, on the topic: 'The Foundation and Historical Borders of the Atropatena State'.",
+    "meeting5_prefix": "5th meeting:",
+    "meeting5_content": "Held by Rizvan Nabiyev, Member of the National Assembly and Doctor of Political Sciences, on the topic: 'Return and Parliamentary Diplomacy'.",
+    "meeting6_prefix": "6th meeting:",
+    "meeting6_content": "A panel discussion held by Members of the National Assembly Nigar Mammadova, Sabina Khasiyeva, and Nagif Hamzayev on the topic: 'Promoting Return in International Representation: Tasks and Steps'.",
+    "closingTitle": "Closing Ceremony:",
+    "closingContent": "Deputy Minister of Youth and Sports Indira Hajiyeva and MP, Deputy Chairman of the Board of the Western Azerbaijan Community Kaya Mammadov held extensive discussions with young ambassadors on the concept of return, its importance, and the responsibilities falling upon youth. The young people voiced their ideas and proposals for the continuation of the project and received answers to their questions about future plans.",
+    "awards": "Participants who successfully completed the project were awarded diplomas and plaques by the World Union of Azerbaijani Youth.",
+    "presentedBy": "Awards were presented to the young ambassadors by Indira Hajiyeva, Kaya Mammadov, Director of the Youth Development and Career Center Azer Aliyev, and Chairman of the World Union of Azerbaijani Youth Ramin Habibzade."
+  },
+  "LearnFrom": {
+    "title": "\"Generation Z in the Business World: Learn from a Professional\" project",
+    "breadcrumb_projects": "Home",
+    "breadcrumb_page": "Learn from a Professional",
+    "paragraph_1": "The aim of the \"Generation Z in the Business World: Learn from a Professional\" project is to contribute to the professional development of young people by helping them better integrate into the business world and align with labor market demands.",
+    "paragraph_2": "Throughout the 3-month project, participants will meet with successful business leaders from various fields, representatives of the banking sector, and professionals who are influential in the labor market to gain valuable knowledge across multiple domains.",
+    "paragraph_3": "At the final stage of the project, successful participants will be awarded certificates. Two particularly active participants will receive an official letter of recommendation in Azerbaijani or English from the World Union of Azerbaijani Youth."
+  },
+  "pythonTraining": {
+    "python_title": "Python Trainings",
+    "breadcrumb_projects": "Home",
+    "breadcrumb_page_python": "Python Trainings",
+    "paragraph_1": "The World Union of Azerbaijani Youth organized free Python trainings.",
+    "paragraph_2": "As the initial stage of the project, a testing phase was conducted and successfully completed. Selected participants received training based on modern methodologies in a series of sessions. They gained basic and intermediate knowledge of Python, improved their ability to understand and write code, gained experience in teamwork and built professional networks, while working on both theoretical and practical lessons and projects.",
+    "paragraph_3": "In addition to theoretical knowledge, the project included practical tasks and real-life project work. During this period, participants learned the fundamentals of programming, completed practical exercises, and improved their skills. At the end of the project, successful participants were awarded certificates."
+  },
 
-"AI4culturePage":{
-  "projects": "Home",
-  "ai4culture": "AI4Culture",
-  "title": "\"AI4Culture: The Digital Transformation of Culture\" Project",
-  "intro1": "Within the framework of the \"AI4Culture: The Digital Transformation of Culture\" project, participants gained both theoretical and practical knowledge about the application of artificial intelligence and digital technologies in the field of culture.",
-  "intro2": "The project was implemented with the support of the Ministry of Culture of the Republic of Azerbaijan, organized by the World Union of Azerbaijani Youth, and partnered with the Artificial Intelligence Azerbaijan platform. As a result of this collaboration, important steps were taken in fostering youth development at the intersection of technology and culture and integrating new technological opportunities into creative fields.",
-  "section1": "Two major innovations were introduced to the public within the project. One of them was the 'revival' of five renowned cultural figures using artificial intelligence technology. Through these videos, the voices, speaking styles, and visual appearances of these prominent individuals were realistically recreated and presented to the younger generation. This approach sparked great interest as it aimed to preserve their legacy in a modern format and demonstrated how technology can serve cultural memory.",
-  "section2": "The other major innovation was the creation of a Virtual Museum as part of the project. Formed using artificial intelligence and 3D visualization technologies, the museum presents Azerbaijan's cultural heritage in an interactive format. The Virtual Museum allows visitors to explore exhibits, obtain interactive information, and discover our culture in a digital environment from anywhere. This initiative vividly illustrates the role of digital transformation in preserving and promoting culture.",
-  "final1": "The overall goal of the project was to increase the knowledge and skills of young people in artificial intelligence technologies and to contribute to the promotion and preservation of national culture through modern technologies. Participants were equipped with in-depth knowledge about the digital transformation process through various seminars, practical trainings, and interactive sessions.",
-  "final2": "At the closing ceremony, certificates were awarded to participants who successfully completed the project. The certificates were presented by Nazrin Suleymanova, Secretary General of the World Union of Azerbaijani Youth, and staff of the Artificial Intelligence Azerbaijan platform."
-},
+  "AI4culturePage": {
+    "projects": "Home",
+    "ai4culture": "AI4Culture",
+    "title": "\"AI4Culture: The Digital Transformation of Culture\" Project",
+    "intro1": "Within the framework of the \"AI4Culture: The Digital Transformation of Culture\" project, participants gained both theoretical and practical knowledge about the application of artificial intelligence and digital technologies in the field of culture.",
+    "intro2": "The project was implemented with the support of the Ministry of Culture of the Republic of Azerbaijan, organized by the World Union of Azerbaijani Youth, and partnered with the Artificial Intelligence Azerbaijan platform. As a result of this collaboration, important steps were taken in fostering youth development at the intersection of technology and culture and integrating new technological opportunities into creative fields.",
+    "section1": "Two major innovations were introduced to the public within the project. One of them was the 'revival' of five renowned cultural figures using artificial intelligence technology. Through these videos, the voices, speaking styles, and visual appearances of these prominent individuals were realistically recreated and presented to the younger generation. This approach sparked great interest as it aimed to preserve their legacy in a modern format and demonstrated how technology can serve cultural memory.",
+    "section2": "The other major innovation was the creation of a Virtual Museum as part of the project. Formed using artificial intelligence and 3D visualization technologies, the museum presents Azerbaijan's cultural heritage in an interactive format. The Virtual Museum allows visitors to explore exhibits, obtain interactive information, and discover our culture in a digital environment from anywhere. This initiative vividly illustrates the role of digital transformation in preserving and promoting culture.",
+    "final1": "The overall goal of the project was to increase the knowledge and skills of young people in artificial intelligence technologies and to contribute to the promotion and preservation of national culture through modern technologies. Participants were equipped with in-depth knowledge about the digital transformation process through various seminars, practical trainings, and interactive sessions.",
+    "final2": "At the closing ceremony, certificates were awarded to participants who successfully completed the project. The certificates were presented by Nazrin Suleymanova, Secretary General of the World Union of Azerbaijani Youth, and staff of the Artificial Intelligence Azerbaijan platform."
+  },
 
-"error":{
-  "page_not_found": "Page not found",
-  "not_found_message": "The page you are looking for does not exist or has been moved. Please return to the home page.",
-  "home": "Home",
-  "go_back": "Go Back",
-  "organization_name": "World Azerbaijanis Youth Organization",
-  "slogan": "Voice of the youth, builders of the future"
-},
+  "error": {
+    "page_not_found": "Page not found",
+    "not_found_message": "The page you are looking for does not exist or has been moved. Please return to the home page.",
+    "home": "Home",
+    "go_back": "Go Back",
+    "organization_name": "World Azerbaijanis Youth Organization",
+    "slogan": "Voice of the youth, builders of the future"
+  },
 
-"Blogs":{
-   "title": "Blog",
+  "Blogs": {
+    "title": "Blog",
     "subtitle": "Discover the deep pages of Azerbaijan's history and the experiences of our young ambassadors",
     "search_placeholder": "Search blogs...",
     "read_more": "Read",
@@ -253,48 +251,48 @@
       "politics": "Politics",
       "statehood": "Statehood"
     },
-   "blog1_title": "Historical Facts of the Atropatene State",
-  "blog1_category": "History",
-  "blog1_excerpt": "At a meeting with the first Prime Minister of the Republic of Azerbaijan, Hasan Hasanov, and the Young Ambassadors of Western Azerbaijan, new facts were presented about the founding history of the Atropatene state...",
-  "blog1_introduction": "On January 27, the next meeting of the 'Young Ambassadors of Western Azerbaijan' was held with the first Prime Minister of the Republic of Azerbaijan, Ambassador Extraordinary and Plenipotentiary, Doctor of Historical Sciences, Professor Hasan Hasanov. As a Young Ambassador of Western Azerbaijan, this meeting was extremely interesting and beneficial for me. Many crucial points of our history were addressed, and some issues raised serious questions in my mind. Particularly, the facts presented about the foundation of the Atropatene state were entirely different from what we had known until now.",
-  "blog1_historical": "We were always taught that this state was established in 321 BC after the collapse of Alexander the Great’s empire. However, during the meeting, it was revealed that Atropatene was actually founded much earlier – in 612 BC. If this fact is accepted, it means the history of Azerbaijani statehood goes back to a much earlier period and brings the issue of succession with ancient Turkic states in the region back into focus. Mr. Hasan substantiated this idea with various historical sources. Maps presented during the meeting showed that the traditions of Azerbaijani statehood developed in three main stages. In the first stage (starting from the 3rd millennium BC), tribal unions such as Turukkum, Lullubum, and Guttum (Gutians) existed in the South Caucasus and the current territory of Azerbaijan. These tribes are also mentioned in Assyrian sources, and it is noted that they had statehood traditions. In the second stage (9th–7th centuries BC), the states of Manna, Media, and Ashguz emerged. One remarkable detail is the existence of the Ashguz kingdom. In 673 BC, the Ashguz and Median states emerged, and this process laid the foundation for Atropatene. At that time, continuous confrontations with Assyria occurred. Finally, in 612 BC, with the fall of the Assyrian capital Nineveh, the Atropatene state was founded. Ancient authors such as Ctesias and Diodorus wrote that Babylonian governor Belesus and the Median king Arbai (Arpat) united against Assyria. The Ashguz kingdom also joined this coalition, resulting in the formation of a new state – Adorbaygan (Atropatene).",
-  "blog1_modern": "One of the most interesting aspects is that after its establishment, Atropatene was known by different names for a long time. Roman historian Ammianus Marcellinus wrote that a state named Atropatene emerged on the borders of Media after the collapse of Assyria. The Syrian source 'Karxi de bet Selox' states that this state was founded by Arbai, king of the Ashguz kingdom. So why are these facts not in the textbooks? The reason lies in the stereotypes formed by Soviet historiography. Igrar Aliyev, based on the writings of Strabo, claimed that Atropatene was founded in 321 BC. However, Strabo only stated that 'Atropatene regained its independence after Alexander's death,' which shows that Atropatene already existed but was under vassal dependency during Alexander’s rule.",
-  "blog1_conclusion": "Acceptance of these facts answers several historical questions: 1. It proves that Atropatene was not of Persian origin but a Turkic state founded in 612 BC. 2. It shows its Scythian-Saka (Ashguz) origin and its connection to the Oghuz Turks. 3. It invalidates the claims of Armenian historiography over Atropatene since the first reference to Armenians dates back to 521 BC, while Atropatene already existed since 612 BC. This topic should be widely discussed, and our history should be thoroughly studied. The better we understand our past, the stronger we can build our future. The history of Azerbaijani statehood is older than we thought and is of vital importance for our national identity.",
+    "blog1_title": "Historical Facts of the Atropatene State",
+    "blog1_category": "History",
+    "blog1_excerpt": "At a meeting with the first Prime Minister of the Republic of Azerbaijan, Hasan Hasanov, and the Young Ambassadors of Western Azerbaijan, new facts were presented about the founding history of the Atropatene state...",
+    "blog1_introduction": "On January 27, the next meeting of the 'Young Ambassadors of Western Azerbaijan' was held with the first Prime Minister of the Republic of Azerbaijan, Ambassador Extraordinary and Plenipotentiary, Doctor of Historical Sciences, Professor Hasan Hasanov. As a Young Ambassador of Western Azerbaijan, this meeting was extremely interesting and beneficial for me. Many crucial points of our history were addressed, and some issues raised serious questions in my mind. Particularly, the facts presented about the foundation of the Atropatene state were entirely different from what we had known until now.",
+    "blog1_historical": "We were always taught that this state was established in 321 BC after the collapse of Alexander the Great’s empire. However, during the meeting, it was revealed that Atropatene was actually founded much earlier – in 612 BC. If this fact is accepted, it means the history of Azerbaijani statehood goes back to a much earlier period and brings the issue of succession with ancient Turkic states in the region back into focus. Mr. Hasan substantiated this idea with various historical sources. Maps presented during the meeting showed that the traditions of Azerbaijani statehood developed in three main stages. In the first stage (starting from the 3rd millennium BC), tribal unions such as Turukkum, Lullubum, and Guttum (Gutians) existed in the South Caucasus and the current territory of Azerbaijan. These tribes are also mentioned in Assyrian sources, and it is noted that they had statehood traditions. In the second stage (9th–7th centuries BC), the states of Manna, Media, and Ashguz emerged. One remarkable detail is the existence of the Ashguz kingdom. In 673 BC, the Ashguz and Median states emerged, and this process laid the foundation for Atropatene. At that time, continuous confrontations with Assyria occurred. Finally, in 612 BC, with the fall of the Assyrian capital Nineveh, the Atropatene state was founded. Ancient authors such as Ctesias and Diodorus wrote that Babylonian governor Belesus and the Median king Arbai (Arpat) united against Assyria. The Ashguz kingdom also joined this coalition, resulting in the formation of a new state – Adorbaygan (Atropatene).",
+    "blog1_modern": "One of the most interesting aspects is that after its establishment, Atropatene was known by different names for a long time. Roman historian Ammianus Marcellinus wrote that a state named Atropatene emerged on the borders of Media after the collapse of Assyria. The Syrian source 'Karxi de bet Selox' states that this state was founded by Arbai, king of the Ashguz kingdom. So why are these facts not in the textbooks? The reason lies in the stereotypes formed by Soviet historiography. Igrar Aliyev, based on the writings of Strabo, claimed that Atropatene was founded in 321 BC. However, Strabo only stated that 'Atropatene regained its independence after Alexander's death,' which shows that Atropatene already existed but was under vassal dependency during Alexander’s rule.",
+    "blog1_conclusion": "Acceptance of these facts answers several historical questions: 1. It proves that Atropatene was not of Persian origin but a Turkic state founded in 612 BC. 2. It shows its Scythian-Saka (Ashguz) origin and its connection to the Oghuz Turks. 3. It invalidates the claims of Armenian historiography over Atropatene since the first reference to Armenians dates back to 521 BC, while Atropatene already existed since 612 BC. This topic should be widely discussed, and our history should be thoroughly studied. The better we understand our past, the stronger we can build our future. The history of Azerbaijani statehood is older than we thought and is of vital importance for our national identity.",
 
-  "blog2_title": "Historical Research and Future Perspectives",
-  "blog2_category": "Research",
-  "blog2_excerpt": "Within the framework of the Young Ambassadors of Western Azerbaijan program, we participated in a valuable meeting about the true history of Atropatene, one of the significant pages of Azerbaijani statehood history...",
-  "blog2_introduction": "Within the framework of the 'Young Ambassadors of Western Azerbaijan' program, we participated in a valuable meeting about the true history of Atropatene, one of the significant pages in the history of Azerbaijani statehood. The facts presented by Hasan Hasanov, the first Prime Minister of the Republic of Azerbaijan and Doctor of Historical Sciences, gave us a new perspective on the founding history of Atropatene.",
-  "blog2_historical": "For many years, debates have continued in the field of history regarding the founding date of Atropatene. According to the traditional view, this state was established after the death of Alexander the Great. However, academic research and ancient written sources indicate that Atropatene was actually formed in 612 BC. This major historical shift is related to the fall of the Assyrian Empire. Neo-Babylonian cuneiform texts and notes by Roman historian Ammianus Marcellinus confirm that Atropatene was established through the joint efforts of Media and the Scythians. Ancient sources show that the founder of this state was a Scythian ruler named Arbai (Arbat). Initially, the state was called 'Adorbaygan', and it later became known as 'Atropatene'.",
-  "blog2_modern": "Although Strabo wrote that Atropatene was founded in 321 BC after Alexander’s empire collapsed, these ideas are sometimes misunderstood. In reality, Strabo stated that the state regained its independence at that time. Polybius and other ancient authors noted that Atropatene existed long before Alexander. Historical maps and written records show that the territory of this state stretched from Derbent to Isfahan. The founders of this state were of Scythian-Saka (Ashguz) origin. Herodotus recorded that the terms 'Scythian' and 'Saka' referred to the same people, while Greek sources described them as 'Guz'. This proves Atropatene’s connection to the ancient Oghuz tribes and shows that the genetic-cultural roots of the Azerbaijani people go back to very ancient times.",
-  "blog2_conclusion": "The acceptance of Atropatene's foundation in 612 BC allows a re-evaluation of Azerbaijan’s political and historical identity. In addition to countering distortions by Persian and Armenian sources, it proves the existence of ancient Azerbaijani statehood traditions. These academic justifications are very important for presenting Azerbaijan’s historical realities correctly at the international level. This meeting gave us, the youth, motivation to learn our history more deeply and pass it on to future generations. Revealing the true history of Atropatene and combating false narratives is a crucial responsibility we bear. More extensive research should be conducted in this field, and efforts should be made for its global recognition.",
+    "blog2_title": "Historical Research and Future Perspectives",
+    "blog2_category": "Research",
+    "blog2_excerpt": "Within the framework of the Young Ambassadors of Western Azerbaijan program, we participated in a valuable meeting about the true history of Atropatene, one of the significant pages of Azerbaijani statehood history...",
+    "blog2_introduction": "Within the framework of the 'Young Ambassadors of Western Azerbaijan' program, we participated in a valuable meeting about the true history of Atropatene, one of the significant pages in the history of Azerbaijani statehood. The facts presented by Hasan Hasanov, the first Prime Minister of the Republic of Azerbaijan and Doctor of Historical Sciences, gave us a new perspective on the founding history of Atropatene.",
+    "blog2_historical": "For many years, debates have continued in the field of history regarding the founding date of Atropatene. According to the traditional view, this state was established after the death of Alexander the Great. However, academic research and ancient written sources indicate that Atropatene was actually formed in 612 BC. This major historical shift is related to the fall of the Assyrian Empire. Neo-Babylonian cuneiform texts and notes by Roman historian Ammianus Marcellinus confirm that Atropatene was established through the joint efforts of Media and the Scythians. Ancient sources show that the founder of this state was a Scythian ruler named Arbai (Arbat). Initially, the state was called 'Adorbaygan', and it later became known as 'Atropatene'.",
+    "blog2_modern": "Although Strabo wrote that Atropatene was founded in 321 BC after Alexander’s empire collapsed, these ideas are sometimes misunderstood. In reality, Strabo stated that the state regained its independence at that time. Polybius and other ancient authors noted that Atropatene existed long before Alexander. Historical maps and written records show that the territory of this state stretched from Derbent to Isfahan. The founders of this state were of Scythian-Saka (Ashguz) origin. Herodotus recorded that the terms 'Scythian' and 'Saka' referred to the same people, while Greek sources described them as 'Guz'. This proves Atropatene’s connection to the ancient Oghuz tribes and shows that the genetic-cultural roots of the Azerbaijani people go back to very ancient times.",
+    "blog2_conclusion": "The acceptance of Atropatene's foundation in 612 BC allows a re-evaluation of Azerbaijan’s political and historical identity. In addition to countering distortions by Persian and Armenian sources, it proves the existence of ancient Azerbaijani statehood traditions. These academic justifications are very important for presenting Azerbaijan’s historical realities correctly at the international level. This meeting gave us, the youth, motivation to learn our history more deeply and pass it on to future generations. Revealing the true history of Atropatene and combating false narratives is a crucial responsibility we bear. More extensive research should be conducted in this field, and efforts should be made for its global recognition.",
 
-  "blog3_title": "The Historical Mission of the Young Ambassadors",
-  "blog3_category": "Young Ambassadors",
-  "blog3_excerpt": "I had the chance to meet Hasan Hasanov thanks to the Young Ambassadors project of the Western Azerbaijan Community. The selected topic was clear – the founding of the Atropatene state...",
-  "blog3_introduction": "I had the chance to meet Hasan Hasanov through the 'Young Ambassadors of the Western Azerbaijan Community' project. The chosen topic was clear – 'The founding of the Atropatene state and its historical borders'. To be honest, at first, the selection of this topic was a bit unexpected for me. One question popped into my mind – why specifically Atropatene? But after the meeting, everything became clear. As Hasan Hasanov said, if we are the young ambassadors spreading the history of Western Azerbaijan, then we must deeply understand the history of these lands. We must be able to prove everything we know, believe in, and are certain about with evidence. Because history is not just a chronological record of past events – it is a window to the future.",
-  "blog3_historical": "We were given valuable information about the ancient history of the Atropatene state, which extended from the Golden River in the west to the Caspian Sea in the east, from the Caucasus Mountains in the north to Lake Urmia in the south, and which was actually founded after the disintegration of the Assyrian Empire around 612 BC. Throughout the meeting, it was emphasized how challenging it is to defend these historical facts and the importance of proving them with evidence. Because history is a hidden secret, and the information provided by Hasan Hasanov, supported with evidence, raises new questions and becomes even more intriguing. The idea that the Scythians – the Umman-Manda people – who were the dominant nation at the time, destroyed Assyria, contradicts Herodotus’ claim that the Medes destroyed Assyria. For us young ambassadors, this presents a new alternative for the world.",
-  "blog3_modern": "Hasan Hasanov also stated that the burden of spreading this knowledge to the world lies on us, the young ambassadors. Another trait I noticed in him was that he responded to those who tried to distort our history by striking back with the truth of our history. Our history should be the power that makes us speak, not silences us. Perhaps when he noticed that some answers were given hesitantly during the meeting, he said, 'say it louder,' as a reminder of that. Our history belongs only to us, and only we can know the truth of it. So why should we be hesitant to speak it out loud? Hasan Hasanov did not shy away from groundless accusations because he knew the truth and called on us to learn it too. During the meeting, the frequently debated question 'Are we Turks or Azerbaijanis?' was also asked. The distinguished historian answered, 'we are Turkic-origin Azerbaijanis,' reminding us once again of our true identity.",
-  "blog3_conclusion": "There was so much to talk about during the meeting, but the time was short. I believe this valuable meeting with our historian Hasan Hasanov should have had two parts. There was still much to discuss and learn. For me, this meeting was not just a historical lecture but a call for national identity, historical memory, and self-confidence. Every idea and piece of evidence presented by Hasan Hasanov is a responsibility and an obligation for us young people. Now is the time to speak about our history not with silence, but with confidence and evidence.",
+    "blog3_title": "The Historical Mission of the Young Ambassadors",
+    "blog3_category": "Young Ambassadors",
+    "blog3_excerpt": "I had the chance to meet Hasan Hasanov thanks to the Young Ambassadors project of the Western Azerbaijan Community. The selected topic was clear – the founding of the Atropatene state...",
+    "blog3_introduction": "I had the chance to meet Hasan Hasanov through the 'Young Ambassadors of the Western Azerbaijan Community' project. The chosen topic was clear – 'The founding of the Atropatene state and its historical borders'. To be honest, at first, the selection of this topic was a bit unexpected for me. One question popped into my mind – why specifically Atropatene? But after the meeting, everything became clear. As Hasan Hasanov said, if we are the young ambassadors spreading the history of Western Azerbaijan, then we must deeply understand the history of these lands. We must be able to prove everything we know, believe in, and are certain about with evidence. Because history is not just a chronological record of past events – it is a window to the future.",
+    "blog3_historical": "We were given valuable information about the ancient history of the Atropatene state, which extended from the Golden River in the west to the Caspian Sea in the east, from the Caucasus Mountains in the north to Lake Urmia in the south, and which was actually founded after the disintegration of the Assyrian Empire around 612 BC. Throughout the meeting, it was emphasized how challenging it is to defend these historical facts and the importance of proving them with evidence. Because history is a hidden secret, and the information provided by Hasan Hasanov, supported with evidence, raises new questions and becomes even more intriguing. The idea that the Scythians – the Umman-Manda people – who were the dominant nation at the time, destroyed Assyria, contradicts Herodotus’ claim that the Medes destroyed Assyria. For us young ambassadors, this presents a new alternative for the world.",
+    "blog3_modern": "Hasan Hasanov also stated that the burden of spreading this knowledge to the world lies on us, the young ambassadors. Another trait I noticed in him was that he responded to those who tried to distort our history by striking back with the truth of our history. Our history should be the power that makes us speak, not silences us. Perhaps when he noticed that some answers were given hesitantly during the meeting, he said, 'say it louder,' as a reminder of that. Our history belongs only to us, and only we can know the truth of it. So why should we be hesitant to speak it out loud? Hasan Hasanov did not shy away from groundless accusations because he knew the truth and called on us to learn it too. During the meeting, the frequently debated question 'Are we Turks or Azerbaijanis?' was also asked. The distinguished historian answered, 'we are Turkic-origin Azerbaijanis,' reminding us once again of our true identity.",
+    "blog3_conclusion": "There was so much to talk about during the meeting, but the time was short. I believe this valuable meeting with our historian Hasan Hasanov should have had two parts. There was still much to discuss and learn. For me, this meeting was not just a historical lecture but a call for national identity, historical memory, and self-confidence. Every idea and piece of evidence presented by Hasan Hasanov is a responsibility and an obligation for us young people. Now is the time to speak about our history not with silence, but with confidence and evidence.",
 
-  "blog4_title": "History in the Context of International Relations",
-  "blog4_category": "Politics",
-  "blog4_excerpt": "Every meeting we attend as Young Ambassadors brings us new knowledge and perspectives. Our meeting with Mr. Hasan was no exception...",
-  "blog4_introduction": "Every meeting we attend as Young Ambassadors brings us new knowledge and perspectives. Our meeting with Mr. Hasan was no exception. The facts mentioned about the historical connections between Atropatene and Western Azerbaijan especially caught our attention. During the meeting, we saw how historical processes resonate with today's realities and how this topic is analyzed in the context of international relations.",
-  "blog4_historical": "The state of Atropatene existed in the historical territory of Azerbaijan and laid the foundation for the region's ancient traditions of statehood. As Mr. Hasan emphasized, the historical legacy of this state is closely connected to the lands of Western Azerbaijan. The cultural heritage and ethnic structure formed in these lands since ancient times clearly demonstrate the Azerbaijani people's connection to these territories.",
-  "blog4_modern": "Approaching the issue not only from a historical but also from an international relations perspective taught us analytical thinking. Understanding how historical facts align with modern political processes is essential for building correct future strategies. The meeting was rich in both information exchange and mutual discussions.",
-  "blog4_conclusion": "Such events not only provide us with knowledge but also allow us to analyze historical events in a broader context. We hope that meetings like this will continue and bring us new perspectives. We thank Mr. Hasan and the organizers!",
+    "blog4_title": "History in the Context of International Relations",
+    "blog4_category": "Politics",
+    "blog4_excerpt": "Every meeting we attend as Young Ambassadors brings us new knowledge and perspectives. Our meeting with Mr. Hasan was no exception...",
+    "blog4_introduction": "Every meeting we attend as Young Ambassadors brings us new knowledge and perspectives. Our meeting with Mr. Hasan was no exception. The facts mentioned about the historical connections between Atropatene and Western Azerbaijan especially caught our attention. During the meeting, we saw how historical processes resonate with today's realities and how this topic is analyzed in the context of international relations.",
+    "blog4_historical": "The state of Atropatene existed in the historical territory of Azerbaijan and laid the foundation for the region's ancient traditions of statehood. As Mr. Hasan emphasized, the historical legacy of this state is closely connected to the lands of Western Azerbaijan. The cultural heritage and ethnic structure formed in these lands since ancient times clearly demonstrate the Azerbaijani people's connection to these territories.",
+    "blog4_modern": "Approaching the issue not only from a historical but also from an international relations perspective taught us analytical thinking. Understanding how historical facts align with modern political processes is essential for building correct future strategies. The meeting was rich in both information exchange and mutual discussions.",
+    "blog4_conclusion": "Such events not only provide us with knowledge but also allow us to analyze historical events in a broader context. We hope that meetings like this will continue and bring us new perspectives. We thank Mr. Hasan and the organizers!",
 
-  "blog5_title": "The Fundamental Structure of Azerbaijani Statehood",
-  "blog5_category": "Statehood",
-  "blog5_excerpt": "One of the most fundamental issues of modern Azerbaijani statehood is its historical profile. Hasan Hasanov's deep knowledge and determination...",
-  "blog5_introduction": "One of the most fundamental issues of modern Azerbaijani statehood is its historical profile. Hasan Hasanov's deep knowledge and determination undoubtedly prove Azerbaijan's role and unique position in world history. Despite the repressive atmosphere during the Soviet era, he opposed the system, studied the fundamental structure of Azerbaijani history, and tried to preserve this heritage for future generations.",
-  "blog5_historical": "This presentation discussed not only the historical lands of Azerbaijan but also the identities of neighboring states, revealing the historical realities of the region. Unfortunately, historical facts are sometimes distorted and manipulated in popular media by our neighbors such as Armenia and Iran. However, this meeting held within the framework of the 'Young Ambassadors of Western Azerbaijan' project served as a beacon for young researchers. Historical references and years of academic research guide us toward a clearer future.",
-  "blog5_modern": "In the modern era, introducing the inviolability of our territorial integrity to countries like France, which suffers from traditional Turkophobia at the UN Security Council, requires not just academic knowledge but serious diplomatic courage. In my opinion, the most valuable investment in the future is understanding history correctly and drawing conclusions from it. Atropatene, Manna, Caucasian Albania, and similar ancient states have played an important role in shaping our Azerbaijani identity. The most important aspect of this meeting for me was that Hasan Hasanov shared his position with young people both as a scholar and as a public figure.",
-  "blog5_conclusion": "Succeeding in both fields is a rare skill, and I believe that continuously using the knowledge I gained during this seminar will also play an important role in my personal development. Organizing such events greatly contributes to the young generation's deeper understanding of our national history and helps form a firm, scientifically based position. Hasan Hasanov's research once again proves that Azerbaijani history is not only geographically bounded but also of global cultural and political significance. Presenting and protecting historical facts correctly on the international stage plays a vital role in defending our country’s interests. This meeting also showed that, along with an academic approach, public diplomacy is extremely important in conveying the truths about Azerbaijan to the world."
-},
+    "blog5_title": "The Fundamental Structure of Azerbaijani Statehood",
+    "blog5_category": "Statehood",
+    "blog5_excerpt": "One of the most fundamental issues of modern Azerbaijani statehood is its historical profile. Hasan Hasanov's deep knowledge and determination...",
+    "blog5_introduction": "One of the most fundamental issues of modern Azerbaijani statehood is its historical profile. Hasan Hasanov's deep knowledge and determination undoubtedly prove Azerbaijan's role and unique position in world history. Despite the repressive atmosphere during the Soviet era, he opposed the system, studied the fundamental structure of Azerbaijani history, and tried to preserve this heritage for future generations.",
+    "blog5_historical": "This presentation discussed not only the historical lands of Azerbaijan but also the identities of neighboring states, revealing the historical realities of the region. Unfortunately, historical facts are sometimes distorted and manipulated in popular media by our neighbors such as Armenia and Iran. However, this meeting held within the framework of the 'Young Ambassadors of Western Azerbaijan' project served as a beacon for young researchers. Historical references and years of academic research guide us toward a clearer future.",
+    "blog5_modern": "In the modern era, introducing the inviolability of our territorial integrity to countries like France, which suffers from traditional Turkophobia at the UN Security Council, requires not just academic knowledge but serious diplomatic courage. In my opinion, the most valuable investment in the future is understanding history correctly and drawing conclusions from it. Atropatene, Manna, Caucasian Albania, and similar ancient states have played an important role in shaping our Azerbaijani identity. The most important aspect of this meeting for me was that Hasan Hasanov shared his position with young people both as a scholar and as a public figure.",
+    "blog5_conclusion": "Succeeding in both fields is a rare skill, and I believe that continuously using the knowledge I gained during this seminar will also play an important role in my personal development. Organizing such events greatly contributes to the young generation's deeper understanding of our national history and helps form a firm, scientifically based position. Hasan Hasanov's research once again proves that Azerbaijani history is not only geographically bounded but also of global cultural and political significance. Presenting and protecting historical facts correctly on the international stage plays a vital role in defending our country’s interests. This meeting also showed that, along with an academic approach, public diplomacy is extremely important in conveying the truths about Azerbaijan to the world."
+  },
 
-   "common": {
+  "common": {
     "all": "All"
   },
   "BlogDetail": {
@@ -305,7 +303,7 @@
     "conclusion": "Conclusion",
     "quote": "The experience and achievements gained in this field are valuable heritage for future generations, and strategies built on their foundation will be even more perfect."
   },
-   "TableOfContents": {
+  "TableOfContents": {
     "headingTitle": "Table of Contents",
     "items": {
       "introduction": "Introduction",
@@ -314,9 +312,9 @@
       "modernPerspective": "Modern Perspective",
       "conclusion": "Conclusion"
     }
-   },
-   
-    "blogNotFound": {
+  },
+
+  "blogNotFound": {
     "notFound_title": "Blog Not Found",
     "notFound_message": "The blog post you are looking for does not exist or has been deleted.",
     "notFound_button": "Return to Blogs"

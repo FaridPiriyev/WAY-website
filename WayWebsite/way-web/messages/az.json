@@ -4,6 +4,7 @@
     "about": "Haqqımızda",
     "activities": "Hədəflərimiz",
     "projects": "Layihələrimiz",
+    "certificate":"Sertifikatı yoxla",
     "team": "Komandamız",
     "contact": "Əlaqə",
     "blog":"Bloqlar"
@@ -93,6 +94,10 @@
     "email": "info@wayunion.org",
     "phoneLabel": "Telefon nömrəsi",
     "phone": "+994 (012) 597 56 19"
+  },
+
+  "certificate":{
+    "title": "Sertifikatı Yoxla"
   },
  
  "Team": {
